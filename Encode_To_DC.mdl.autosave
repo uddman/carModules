@@ -1,0 +1,5984 @@
+Model {
+  Name			  "Encode_To_DC"
+  Version		  8.6
+  MdlSubVersion		  0
+  SavedCharacterEncoding  "US-ASCII"
+  GraphicalInterface {
+    NumRootInports	    0
+    NumRootOutports	    0
+    ParameterArgumentNames  ""
+    ComputedModelVersion    "1.17"
+    NumModelReferences	    0
+    NumTestPointedSignals   0
+  }
+  ScopeRefreshTime	  0.035000
+  OverrideScopeRefreshTime on
+  DisableAllScopes	  off
+  DataTypeOverride	  "UseLocalSettings"
+  DataTypeOverrideAppliesTo "AllNumericTypes"
+  MinMaxOverflowLogging	  "UseLocalSettings"
+  MinMaxOverflowArchiveMode "Overwrite"
+  FPTRunName		  "Run 1"
+  MaxMDLFileLineLength	  120
+  Object {
+    $PropName		    "BdWindowsInfo"
+    $ObjectID		    1
+    $ClassName		    "Simulink.BDWindowsInfo"
+    Object {
+      $PropName		      "WindowsInfo"
+      $ObjectID		      2
+      $ClassName	      "Simulink.WindowInfo"
+      IsActive		      [1]
+      Location		      [53.0, 23.0, 1019.0, 877.0]
+      Object {
+	$PropName		"ModelBrowserInfo"
+	$ObjectID		3
+	$ClassName		"Simulink.ModelBrowserInfo"
+	Visible			[0]
+	DockPosition		"Left"
+	Width			[50]
+	Height			[50]
+	Filter			[59]
+      }
+      Object {
+	$PropName		"ExplorerBarInfo"
+	$ObjectID		4
+	$ClassName		"Simulink.ExplorerBarInfo"
+	Visible			[1]
+      }
+      Object {
+	$PropName		"EditorsInfo"
+	$ObjectID		5
+	$ClassName		"Simulink.EditorInfo"
+	IsActive		[1]
+	ViewObjType		"SimulinkTopLevel"
+	LoadSaveID		"0"
+	Extents			[985.0, 704.0]
+	ZoomFactor		[1.5]
+	Offset			[1018.7077387514698, 161.79435335357832]
+      }
+    }
+  }
+  Created		  "Thu Mar 10 10:40:44 2016"
+  Creator		  "Oscar"
+  UpdateHistory		  "UpdateHistoryNever"
+  ModifiedByFormat	  "%<Auto>"
+  LastModifiedBy	  "Oscar"
+  ModifiedDateFormat	  "%<Auto>"
+  LastModifiedDate	  "Fri Mar 11 09:27:51 2016"
+  RTWModifiedTimeStamp	  379589274
+  ModelVersionFormat	  "1.%<AutoIncrement:17>"
+  ConfigurationManager	  "none"
+  SampleTimeColors	  off
+  SampleTimeAnnotations	  off
+  LibraryLinkDisplay	  "disabled"
+  WideLines		  off
+  ShowLineDimensions	  off
+  ShowPortDataTypes	  off
+  ShowDesignRanges	  off
+  ShowLoopsOnError	  on
+  IgnoreBidirectionalLines off
+  ShowStorageClass	  off
+  ShowTestPointIcons	  on
+  ShowSignalResolutionIcons on
+  ShowViewerIcons	  on
+  SortedOrder		  off
+  ExecutionContextIcon	  off
+  ShowLinearizationAnnotations on
+  ShowVisualizeInsertedRTB on
+  ShowMarkup		  on
+  BlockNameDataTip	  off
+  BlockParametersDataTip  off
+  BlockDescriptionStringDataTip	off
+  ToolBar		  on
+  StatusBar		  on
+  BrowserShowLibraryLinks on
+  BrowserLookUnderMasks	  on
+  SimulationMode	  "normal"
+  PauseTimes		  "5"
+  NumberOfSteps		  1
+  SnapshotBufferSize	  10
+  SnapshotInterval	  10
+  NumberOfLastSnapshots	  0
+  LinearizationMsg	  "none"
+  Profile		  off
+  ParamWorkspaceSource	  "MATLABWorkspace"
+  AccelSystemTargetFile	  "accel.tlc"
+  AccelTemplateMakefile	  "accel_default_tmf"
+  AccelMakeCommand	  "make_rtw"
+  TryForcingSFcnDF	  off
+  Object {
+    $PropName		    "DataLoggingOverride"
+    $ObjectID		    6
+    $ClassName		    "Simulink.SimulationData.ModelLoggingInfo"
+    model_		    "Encode_To_DC"
+    overrideMode_	    [0.0]
+    Array {
+      Type		      "Cell"
+      Dimension		      1
+      Cell		      "Encode_To_DC"
+      PropName		      "logAsSpecifiedByModels_"
+    }
+    Array {
+      Type		      "Cell"
+      Dimension		      1
+      Cell		      []
+      PropName		      "logAsSpecifiedByModelsSSIDs_"
+    }
+  }
+  Object {
+    $PropName		    "InstrumentedSignals"
+    $ObjectID		    7
+    $ClassName		    "Simulink.HMI.InstrumentedSignals"
+    Persistence		    []
+  }
+  Object {
+    $PropName		    "StreamingClients"
+    $ObjectID		    8
+    $ClassName		    "Simulink.HMI.StreamingClients"
+    Model		    "Encode_To_DC"
+    Array {
+      Type		      "Struct"
+      Dimension		      1
+      MATStruct {
+	UUID			"73a86a28-5870-4ec4-86fa-b71259b90db7"
+	Array {
+	  Type			  "Cell"
+	  Dimension		  0
+	  PropName		  "ModelPath_"
+	}
+	Array {
+	  Type			  "Cell"
+	  Dimension		  0
+	  PropName		  "ModelPathSID_"
+	}
+	SourceModel_		"Encode_To_DC"
+	SignalUUID_		"504c0041-25e3-4c58-a6f8-c62d792468fd"
+	ObserverType_		"hmi_web_widget_observer"
+	Array {
+	  Type			  "Struct"
+	  Dimension		  1
+	  MATStruct {
+	  }
+	  PropName		  "ObserverParams_"
+	}
+	UpdateRate_		[1U]
+	DimensionChannel_	[1U]
+	ObserveImaginaryPart_	[0]
+	BusLeafPath_		""
+      }
+      PropName		      "Persistence"
+    }
+  }
+  ExtModeBatchMode	  off
+  ExtModeEnableFloating	  on
+  ExtModeTrigType	  "manual"
+  ExtModeTrigMode	  "normal"
+  ExtModeTrigPort	  "1"
+  ExtModeTrigElement	  "any"
+  ExtModeTrigDuration	  1000
+  ExtModeTrigDurationFloating "auto"
+  ExtModeTrigHoldOff	  0
+  ExtModeTrigDelay	  0
+  ExtModeTrigDirection	  "rising"
+  ExtModeTrigLevel	  0
+  ExtModeArchiveMode	  "off"
+  ExtModeAutoIncOneShot	  off
+  ExtModeIncDirWhenArm	  off
+  ExtModeAddSuffixToVar	  off
+  ExtModeWriteAllDataToWs off
+  ExtModeArmWhenConnect	  on
+  ExtModeSkipDownloadWhenConnect off
+  ExtModeLogAll		  on
+  ExtModeAutoUpdateStatusClock on
+  ShowModelReferenceBlockVersion off
+  ShowModelReferenceBlockIO off
+  Array {
+    Type		    "Handle"
+    Dimension		    1
+    Simulink.ConfigSet {
+      $ObjectID		      9
+      Version		      "1.15.1"
+      Array {
+	Type			"Handle"
+	Dimension		9
+	Simulink.SolverCC {
+	  $ObjectID		  10
+	  Version		  "1.15.1"
+	  StartTime		  "0.0"
+	  StopTime		  "inf"
+	  AbsTol		  "auto"
+	  FixedStep		  "auto"
+	  InitialStep		  "auto"
+	  MaxNumMinSteps	  "-1"
+	  MaxOrder		  5
+	  ZcThreshold		  "auto"
+	  ConsecutiveZCsStepRelTol "10*128*eps"
+	  MaxConsecutiveZCs	  "1000"
+	  ExtrapolationOrder	  4
+	  NumberNewtonIterations  1
+	  MaxStep		  "auto"
+	  MinStep		  "auto"
+	  MaxConsecutiveMinStep	  "1"
+	  RelTol		  "1e-3"
+	  SolverMode		  "Auto"
+	  EnableConcurrentExecution off
+	  ConcurrentTasks	  off
+	  Solver		  "VariableStepAuto"
+	  SolverName		  "VariableStepAuto"
+	  SolverJacobianMethodControl "auto"
+	  ShapePreserveControl	  "DisableAll"
+	  ZeroCrossControl	  "UseLocalSettings"
+	  ZeroCrossAlgorithm	  "Nonadaptive"
+	  AlgebraicLoopSolver	  "TrustRegion"
+	  SolverInfoToggleStatus  off
+	  IsAutoAppliedInSIP	  off
+	  SolverResetMethod	  "Fast"
+	  PositivePriorityOrder	  off
+	  AutoInsertRateTranBlk	  off
+	  SampleTimeConstraint	  "Unconstrained"
+	  InsertRTBMode		  "Whenever possible"
+	}
+	Simulink.DataIOCC {
+	  $ObjectID		  11
+	  Version		  "1.15.1"
+	  Decimation		  "1"
+	  ExternalInput		  "[t, u]"
+	  FinalStateName	  "xFinal"
+	  InitialState		  "xInitial"
+	  LimitDataPoints	  on
+	  MaxDataPoints		  "1000"
+	  LoadExternalInput	  off
+	  LoadInitialState	  off
+	  SaveFinalState	  off
+	  SaveCompleteFinalSimState off
+	  SaveFormat		  "Dataset"
+	  SignalLoggingSaveFormat "Dataset"
+	  SaveOutput		  on
+	  SaveState		  off
+	  SignalLogging		  on
+	  DSMLogging		  on
+	  InspectSignalLogs	  off
+	  VisualizeSimOutput	  on
+	  StreamToWorkspace	  off
+	  StreamVariableName	  "streamout"
+	  SaveTime		  on
+	  ReturnWorkspaceOutputs  off
+	  StateSaveName		  "xout"
+	  TimeSaveName		  "tout"
+	  OutputSaveName	  "yout"
+	  SignalLoggingName	  "logsout"
+	  DSMLoggingName	  "dsmout"
+	  OutputOption		  "RefineOutputTimes"
+	  OutputTimes		  "[]"
+	  ReturnWorkspaceOutputsName "out"
+	  Refine		  "1"
+	  LoggingIntervals	  "[-inf, inf]"
+	}
+	Simulink.OptimizationCC {
+	  $ObjectID		  12
+	  Version		  "1.15.1"
+	  Array {
+	    Type		    "Cell"
+	    Dimension		    8
+	    Cell		    "BooleansAsBitfields"
+	    Cell		    "PassReuseOutputArgsAs"
+	    Cell		    "PassReuseOutputArgsThreshold"
+	    Cell		    "ZeroExternalMemoryAtStartup"
+	    Cell		    "ZeroInternalMemoryAtStartup"
+	    Cell		    "OptimizeModelRefInitCode"
+	    Cell		    "NoFixptDivByZeroProtection"
+	    Cell		    "UseSpecifiedMinMax"
+	    PropName		    "DisabledProps"
+	  }
+	  BlockReduction	  on
+	  BooleanDataType	  on
+	  ConditionallyExecuteInputs on
+	  DefaultParameterBehavior "Tunable"
+	  UseDivisionForNetSlopeComputation "off"
+	  UseFloatMulNetSlope	  off
+	  DefaultUnderspecifiedDataType	"double"
+	  UseSpecifiedMinMax	  off
+	  InlineInvariantSignals  off
+	  OptimizeBlockIOStorage  on
+	  BufferReuse		  on
+	  EnhancedBackFolding	  off
+	  CachingGlobalReferences off
+	  GlobalBufferReuse	  on
+	  StrengthReduction	  off
+	  ExpressionFolding	  on
+	  BooleansAsBitfields	  off
+	  BitfieldContainerType	  "uint_T"
+	  EnableMemcpy		  on
+	  MemcpyThreshold	  64
+	  PassReuseOutputArgsAs	  "Structure reference"
+	  PassReuseOutputArgsThreshold 12
+	  ExpressionDepthLimit	  128
+	  LocalBlockOutputs	  on
+	  RollThreshold		  5
+	  StateBitsets		  off
+	  DataBitsets		  off
+	  ActiveStateOutputEnumStorageType "Native Integer"
+	  ZeroExternalMemoryAtStartup on
+	  ZeroInternalMemoryAtStartup on
+	  InitFltsAndDblsToZero	  off
+	  NoFixptDivByZeroProtection off
+	  EfficientFloat2IntCast  off
+	  EfficientMapNaN2IntZero on
+	  OptimizeModelRefInitCode off
+	  LifeSpan		  "inf"
+	  MaxStackSize		  "Inherit from target"
+	  BufferReusableBoundary  on
+	  SimCompilerOptimization "off"
+	  AccelVerboseBuild	  off
+	}
+	Simulink.DebuggingCC {
+	  $ObjectID		  13
+	  Version		  "1.15.1"
+	  RTPrefix		  "error"
+	  ConsistencyChecking	  "none"
+	  ArrayBoundsChecking	  "none"
+	  SignalInfNanChecking	  "none"
+	  SignalRangeChecking	  "none"
+	  ReadBeforeWriteMsg	  "UseLocalSettings"
+	  WriteAfterWriteMsg	  "UseLocalSettings"
+	  WriteAfterReadMsg	  "UseLocalSettings"
+	  AlgebraicLoopMsg	  "warning"
+	  ArtificialAlgebraicLoopMsg "warning"
+	  SaveWithDisabledLinksMsg "warning"
+	  SaveWithParameterizedLinksMsg	"warning"
+	  CheckSSInitialOutputMsg on
+	  UnderspecifiedInitializationDetection	"Simplified"
+	  MergeDetectMultiDrivingBlocksExec "error"
+	  CheckExecutionContextPreStartOutputMsg off
+	  CheckExecutionContextRuntimeOutputMsg	off
+	  SignalResolutionControl "UseLocalSettings"
+	  BlockPriorityViolationMsg "warning"
+	  MinStepSizeMsg	  "warning"
+	  TimeAdjustmentMsg	  "none"
+	  MaxConsecutiveZCsMsg	  "error"
+	  MaskedZcDiagnostic	  "warning"
+	  IgnoredZcDiagnostic	  "warning"
+	  SolverPrmCheckMsg	  "none"
+	  InheritedTsInSrcMsg	  "warning"
+	  MultiTaskDSMMsg	  "error"
+	  MultiTaskCondExecSysMsg "error"
+	  MultiTaskRateTransMsg	  "error"
+	  SingleTaskRateTransMsg  "none"
+	  TasksWithSamePriorityMsg "warning"
+	  SigSpecEnsureSampleTimeMsg "warning"
+	  CheckMatrixSingularityMsg "none"
+	  IntegerOverflowMsg	  "warning"
+	  Int32ToFloatConvMsg	  "warning"
+	  ParameterDowncastMsg	  "error"
+	  ParameterOverflowMsg	  "error"
+	  ParameterUnderflowMsg	  "none"
+	  ParameterPrecisionLossMsg "warning"
+	  ParameterTunabilityLossMsg "warning"
+	  FixptConstUnderflowMsg  "none"
+	  FixptConstOverflowMsg	  "none"
+	  FixptConstPrecisionLossMsg "none"
+	  UnderSpecifiedDataTypeMsg "none"
+	  UnnecessaryDatatypeConvMsg "none"
+	  VectorMatrixConversionMsg "none"
+	  InvalidFcnCallConnMsg	  "error"
+	  FcnCallInpInsideContextMsg "EnableAllAsError"
+	  SignalLabelMismatchMsg  "none"
+	  UnconnectedInputMsg	  "warning"
+	  UnconnectedOutputMsg	  "warning"
+	  UnconnectedLineMsg	  "warning"
+	  SFcnCompatibilityMsg	  "none"
+	  FrameProcessingCompatibilityMsg "error"
+	  UniqueDataStoreMsg	  "none"
+	  BusObjectLabelMismatch  "warning"
+	  RootOutportRequireBusObject "warning"
+	  AssertControl		  "UseLocalSettings"
+	  AllowSymbolicDim	  off
+	  ModelReferenceIOMsg	  "none"
+	  ModelReferenceMultiInstanceNormalModeStructChecksumCheck "error"
+	  ModelReferenceVersionMismatchMessage "none"
+	  ModelReferenceIOMismatchMessage "none"
+	  UnknownTsInhSupMsg	  "warning"
+	  ModelReferenceDataLoggingMessage "warning"
+	  ModelReferenceSymbolNameMessage "warning"
+	  ModelReferenceExtraNoncontSigs "error"
+	  StateNameClashWarn	  "none"
+	  SimStateInterfaceChecksumMismatchMsg "warning"
+	  SimStateOlderReleaseMsg "error"
+	  InitInArrayFormatMsg	  "warning"
+	  StrictBusMsg		  "ErrorLevel1"
+	  BusNameAdapt		  "WarnAndRepair"
+	  NonBusSignalsTreatedAsBus "none"
+	  SymbolicDimMinMaxWarning "warning"
+	  BlockIODiagnostic	  "none"
+	  SFUnusedDataAndEventsDiag "warning"
+	  SFUnexpectedBacktrackingDiag "warning"
+	  SFInvalidInputDataAccessInChartInitDiag "warning"
+	  SFNoUnconditionalDefaultTransitionDiag "warning"
+	  SFTransitionOutsideNaturalParentDiag "warning"
+	  SFUnconditionalTransitionShadowingDiag "warning"
+	  SFUndirectedBroadcastEventsDiag "warning"
+	  SFTransitionActionBeforeConditionDiag	"warning"
+	  SFOutputUsedAsStateInMooreChartDiag "error"
+	  IntegerSaturationMsg	  "warning"
+	}
+	Simulink.HardwareCC {
+	  $ObjectID		  14
+	  Version		  "1.15.1"
+	  ProdBitPerChar	  8
+	  ProdBitPerShort	  16
+	  ProdBitPerInt		  32
+	  ProdBitPerLong	  32
+	  ProdBitPerLongLong	  64
+	  ProdBitPerFloat	  32
+	  ProdBitPerDouble	  64
+	  ProdBitPerPointer	  64
+	  ProdLargestAtomicInteger "Char"
+	  ProdLargestAtomicFloat  "Float"
+	  ProdIntDivRoundTo	  "Zero"
+	  ProdEndianess		  "LittleEndian"
+	  ProdWordSize		  64
+	  ProdShiftRightIntArith  on
+	  ProdLongLongMode	  off
+	  ProdHWDeviceType	  "Intel->x86-64 (Windows64)"
+	  TargetBitPerChar	  8
+	  TargetBitPerShort	  16
+	  TargetBitPerInt	  32
+	  TargetBitPerLong	  32
+	  TargetBitPerLongLong	  64
+	  TargetBitPerFloat	  32
+	  TargetBitPerDouble	  64
+	  TargetBitPerPointer	  32
+	  TargetLargestAtomicInteger "Char"
+	  TargetLargestAtomicFloat "None"
+	  TargetShiftRightIntArith on
+	  TargetLongLongMode	  off
+	  TargetIntDivRoundTo	  "Undefined"
+	  TargetEndianess	  "Unspecified"
+	  TargetWordSize	  32
+	  TargetPreprocMaxBitsSint 32
+	  TargetPreprocMaxBitsUint 32
+	  TargetHWDeviceType	  "Specified"
+	  TargetUnknown		  off
+	  ProdEqTarget		  on
+	}
+	Simulink.ModelReferenceCC {
+	  $ObjectID		  15
+	  Version		  "1.15.1"
+	  UpdateModelReferenceTargets "IfOutOfDateOrStructuralChange"
+	  EnableRefExpFcnMdlSchedulingChecks on
+	  CheckModelReferenceTargetMessage "error"
+	  EnableParallelModelReferenceBuilds off
+	  ParallelModelReferenceErrorOnInvalidPool on
+	  ParallelModelReferenceMATLABWorkerInit "None"
+	  ModelReferenceNumInstancesAllowed "Multi"
+	  PropagateVarSize	  "Infer from blocks in model"
+	  ModelReferencePassRootInputsByReference on
+	  ModelReferenceMinAlgLoopOccurrences off
+	  PropagateSignalLabelsOutOfModel off
+	  SupportModelReferenceSimTargetCustomCode off
+	}
+	Simulink.SFSimCC {
+	  $ObjectID		  16
+	  Version		  "1.15.1"
+	  SFSimEcho		  on
+	  SimCtrlC		  on
+	  SimIntegrity		  on
+	  SimUseLocalCustomCode	  off
+	  SimParseCustomCode	  on
+	  SimBuildMode		  "sf_incremental_build"
+	  SimGenImportedTypeDefs  off
+	}
+	Simulink.RTWCC {
+	  $BackupClass		  "Simulink.RTWCC"
+	  $ObjectID		  17
+	  Version		  "1.15.1"
+	  Array {
+	    Type		    "Cell"
+	    Dimension		    13
+	    Cell		    "IncludeHyperlinkInReport"
+	    Cell		    "GenerateTraceInfo"
+	    Cell		    "GenerateTraceReport"
+	    Cell		    "GenerateTraceReportSl"
+	    Cell		    "GenerateTraceReportSf"
+	    Cell		    "GenerateTraceReportEml"
+	    Cell		    "PortableWordSizes"
+	    Cell		    "GenerateWebview"
+	    Cell		    "GenerateCodeMetricsReport"
+	    Cell		    "GenerateCodeReplacementReport"
+	    Cell		    "GenerateMissedCodeReplacementReport"
+	    Cell		    "GenerateErtSFunction"
+	    Cell		    "CreateSILPILBlock"
+	    PropName		    "DisabledProps"
+	  }
+	  SystemTargetFile	  "grt.tlc"
+	  TLCOptions		  ""
+	  GenCodeOnly		  off
+	  MakeCommand		  "make_rtw"
+	  GenerateMakefile	  on
+	  PackageGeneratedCodeAndArtifacts off
+	  TemplateMakefile	  "grt_default_tmf"
+	  PostCodeGenCommand	  ""
+	  Description		  ""
+	  GenerateReport	  off
+	  SaveLog		  off
+	  RTWVerbose		  on
+	  RetainRTWFile		  off
+	  ProfileTLC		  off
+	  TLCDebug		  off
+	  TLCCoverage		  off
+	  TLCAssert		  off
+	  RTWUseLocalCustomCode	  off
+	  RTWUseSimCustomCode	  off
+	  Toolchain		  "Automatically locate an installed toolchain"
+	  BuildConfiguration	  "Faster Builds"
+	  IncludeHyperlinkInReport off
+	  LaunchReport		  off
+	  PortableWordSizes	  off
+	  CreateSILPILBlock	  "None"
+	  CodeExecutionProfiling  off
+	  CodeExecutionProfileVariable "executionProfile"
+	  CodeProfilingSaveOptions "SummaryOnly"
+	  CodeProfilingInstrumentation off
+	  SILDebugging		  off
+	  TargetLang		  "C"
+	  IncludeBusHierarchyInRTWFileBlockHierarchyMap	off
+	  GenerateTraceInfo	  off
+	  GenerateTraceReport	  off
+	  GenerateTraceReportSl	  off
+	  GenerateTraceReportSf	  off
+	  GenerateTraceReportEml  off
+	  GenerateWebview	  off
+	  GenerateCodeMetricsReport off
+	  GenerateCodeReplacementReport	off
+	  GenerateMissedCodeReplacementReport off
+	  RTWCompilerOptimization "off"
+	  RTWCustomCompilerOptimizations ""
+	  CheckMdlBeforeBuild	  "Off"
+	  SharedConstantsCachingThreshold 1024
+	  Array {
+	    Type		    "Handle"
+	    Dimension		    2
+	    Simulink.CodeAppCC {
+	      $ObjectID		      18
+	      Version		      "1.15.1"
+	      Array {
+		Type			"Cell"
+		Dimension		24
+		Cell			"IgnoreCustomStorageClasses"
+		Cell			"ParameterTuningSideEffectCode"
+		Cell			"IgnoreTestpoints"
+		Cell			"InsertBlockDesc"
+		Cell			"InsertPolySpaceComments"
+		Cell			"SFDataObjDesc"
+		Cell			"MATLABFcnDesc"
+		Cell			"SimulinkDataObjDesc"
+		Cell			"DefineNamingRule"
+		Cell			"SignalNamingRule"
+		Cell			"ParamNamingRule"
+		Cell			"InternalIdentifier"
+		Cell			"InlinedPrmAccess"
+		Cell			"CustomSymbolStr"
+		Cell			"CustomSymbolStrGlobalVar"
+		Cell			"CustomSymbolStrType"
+		Cell			"CustomSymbolStrField"
+		Cell			"CustomSymbolStrFcn"
+		Cell			"CustomSymbolStrFcnArg"
+		Cell			"CustomSymbolStrBlkIO"
+		Cell			"CustomSymbolStrTmpVar"
+		Cell			"CustomSymbolStrMacro"
+		Cell			"CustomSymbolStrUtil"
+		Cell			"ReqsInCode"
+		PropName		"DisabledProps"
+	      }
+	      ForceParamTrailComments off
+	      GenerateComments	      on
+	      CommentStyle	      "Auto"
+	      IgnoreCustomStorageClasses on
+	      IgnoreTestpoints	      off
+	      IncHierarchyInIds	      off
+	      MaxIdLength	      31
+	      PreserveName	      off
+	      PreserveNameWithParent  off
+	      ShowEliminatedStatement off
+	      OperatorAnnotations     off
+	      IncAutoGenComments      off
+	      SimulinkDataObjDesc     off
+	      SFDataObjDesc	      off
+	      MATLABFcnDesc	      off
+	      IncDataTypeInIds	      off
+	      MangleLength	      1
+	      CustomSymbolStrGlobalVar "$R$N$M"
+	      CustomSymbolStrType     "$N$R$M_T"
+	      CustomSymbolStrField    "$N$M"
+	      CustomSymbolStrFcn      "$R$N$M$F"
+	      CustomSymbolStrFcnArg   "rt$I$N$M"
+	      CustomSymbolStrBlkIO    "rtb_$N$M"
+	      CustomSymbolStrTmpVar   "$N$M"
+	      CustomSymbolStrMacro    "$R$N$M"
+	      CustomSymbolStrUtil     "$N$C"
+	      DefineNamingRule	      "None"
+	      ParamNamingRule	      "None"
+	      SignalNamingRule	      "None"
+	      InsertBlockDesc	      off
+	      InsertPolySpaceComments off
+	      SimulinkBlockComments   on
+	      MATLABSourceComments    off
+	      EnableCustomComments    off
+	      InternalIdentifier      "Shortened"
+	      InlinedPrmAccess	      "Literals"
+	      ReqsInCode	      off
+	      UseSimReservedNames     off
+	    }
+	    Simulink.GRTTargetCC {
+	      $BackupClass	      "Simulink.TargetCC"
+	      $ObjectID		      19
+	      Version		      "1.15.1"
+	      Array {
+		Type			"Cell"
+		Dimension		12
+		Cell			"IncludeMdlTerminateFcn"
+		Cell			"SuppressErrorStatus"
+		Cell			"ERTCustomFileBanners"
+		Cell			"GenerateSampleERTMain"
+		Cell			"GenerateTestInterfaces"
+		Cell			"ModelStepFunctionPrototypeControlCompliant"
+		Cell			"GenerateAllocFcn"
+		Cell			"PurelyIntegerCode"
+		Cell			"SupportComplex"
+		Cell			"SupportAbsoluteTime"
+		Cell			"SupportContinuousTime"
+		Cell			"SupportNonInlinedSFcns"
+		PropName		"DisabledProps"
+	      }
+	      TargetFcnLib	      "ansi_tfl_table_tmw.mat"
+	      TargetLibSuffix	      ""
+	      TargetPreCompLibLocation ""
+	      GenFloatMathFcnCalls    "NOT IN USE"
+	      TargetLangStandard      "C89/C90 (ANSI)"
+	      CodeReplacementLibrary  "None"
+	      UtilityFuncGeneration   "Auto"
+	      ERTMultiwordTypeDef     "System defined"
+	      ERTMultiwordLength      256
+	      MultiwordLength	      2048
+	      GenerateFullHeader      on
+	      InferredTypesCompatibility off
+	      GenerateSampleERTMain   off
+	      GenerateTestInterfaces  off
+	      ModelReferenceCompliant on
+	      ParMdlRefBuildCompliant on
+	      CompOptLevelCompliant   on
+	      ConcurrentExecutionCompliant on
+	      IncludeMdlTerminateFcn  on
+	      GeneratePreprocessorConditionals "Use local settings"
+	      CombineOutputUpdateFcns on
+	      CombineSignalStateStructs	off
+	      SuppressErrorStatus     off
+	      ERTFirstTimeCompliant   off
+	      IncludeFileDelimiter    "Auto"
+	      ERTCustomFileBanners    off
+	      SupportAbsoluteTime     on
+	      LogVarNameModifier      "rt_"
+	      MatFileLogging	      on
+	      MultiInstanceERTCode    off
+	      CodeInterfacePackaging  "Nonreusable function"
+	      SupportNonFinite	      on
+	      SupportComplex	      on
+	      PurelyIntegerCode	      off
+	      SupportContinuousTime   on
+	      SupportNonInlinedSFcns  on
+	      SupportVariableSizeSignals off
+	      ParenthesesLevel	      "Nominal"
+	      CastingMode	      "Nominal"
+	      MATLABClassNameForMDSCustomization "Simulink.SoftwareTarget.GRTCustomization"
+	      ModelStepFunctionPrototypeControlCompliant off
+	      CPPClassGenCompliant    on
+	      AutosarCompliant	      off
+	      GRTInterface	      off
+	      GenerateAllocFcn	      off
+	      UseToolchainInfoCompliant	on
+	      GenerateSharedConstants on
+	      UseMalloc		      off
+	      ExtMode		      off
+	      ExtModeStaticAlloc      off
+	      ExtModeTesting	      off
+	      ExtModeStaticAllocSize  1000000
+	      ExtModeTransport	      0
+	      ExtModeMexFile	      "ext_comm"
+	      ExtModeIntrfLevel	      "Level1"
+	      RTWCAPISignals	      off
+	      RTWCAPIParams	      off
+	      RTWCAPIStates	      off
+	      RTWCAPIRootIO	      off
+	      GenerateASAP2	      off
+	      MultiInstanceErrorCode  "Error"
+	    }
+	    PropName		    "Components"
+	  }
+	}
+	SlCovCC.ConfigComp {
+	  $ObjectID		  20
+	  Version		  "1.15.1"
+	  Description		  "Simulink Coverage Configuration Component"
+	  Name			  "Simulink Coverage"
+	  RecordCoverage	  off
+	  CovPath		  "/"
+	  CovSaveName		  "covdata"
+	  CovMetricSettings	  "dw"
+	  CovNameIncrementing	  off
+	  CovHtmlReporting	  on
+	  CovForceBlockReductionOff on
+	  CovEnableCumulative	  on
+	  CovSaveCumulativeToWorkspaceVar on
+	  CovSaveSingleToWorkspaceVar on
+	  CovCumulativeVarName	  "covCumulativeData"
+	  CovCumulativeReport	  off
+	  CovReportOnPause	  on
+	  CovModelRefEnable	  "off"
+	  CovExternalEMLEnable	  off
+	  CovSFcnEnable		  on
+	  CovBoundaryAbsTol	  1e-05
+	  CovBoundaryRelTol	  0.01
+	  CovUseTimeInterval	  off
+	  CovStartTime		  0
+	  CovStopTime		  0
+	}
+	PropName		"Components"
+      }
+      Name		      "Configuration"
+      CurrentDlgPage	      "Solver"
+      ConfigPrmDlgPosition     [ 180, 130, 1260, 770 ] 
+    }
+    PropName		    "ConfigurationSets"
+  }
+  Simulink.ConfigSet {
+    $PropName		    "ActiveConfigurationSet"
+    $ObjectID		    9
+  }
+  Object {
+    $PropName		    "DataTransfer"
+    $ObjectID		    21
+    $ClassName		    "Simulink.GlobalDataTransfer"
+    DefaultTransitionBetweenSyncTasks "Ensure deterministic transfer (maximum delay)"
+    DefaultTransitionBetweenAsyncTasks "Ensure data integrity only"
+    DefaultTransitionBetweenContTasks "Ensure deterministic transfer (minimum delay)"
+    DefaultExtrapolationMethodBetweenContTasks "None"
+    AutoInsertRateTranBlk   [0]
+  }
+  ExplicitPartitioning	  off
+  BlockDefaults {
+    ForegroundColor	    "black"
+    BackgroundColor	    "white"
+    DropShadow		    off
+    NamePlacement	    "normal"
+    FontName		    "Helvetica"
+    FontSize		    10
+    FontWeight		    "normal"
+    FontAngle		    "normal"
+    ShowName		    on
+    BlockRotation	    0
+    BlockMirror		    off
+  }
+  AnnotationDefaults {
+    HorizontalAlignment	    "center"
+    VerticalAlignment	    "middle"
+    ForegroundColor	    "black"
+    BackgroundColor	    "white"
+    DropShadow		    off
+    FontName		    "Helvetica"
+    FontSize		    10
+    FontWeight		    "normal"
+    FontAngle		    "normal"
+    UseDisplayTextAsClickCallback off
+  }
+  LineDefaults {
+    FontName		    "Helvetica"
+    FontSize		    9
+    FontWeight		    "normal"
+    FontAngle		    "normal"
+  }
+  MaskDefaults {
+    SelfModifiable	    "off"
+    IconFrame		    "on"
+    IconOpaque		    "on"
+    RunInitForIconRedraw    "off"
+    IconRotate		    "none"
+    PortRotate		    "default"
+    IconUnits		    "autoscale"
+  }
+  MaskParameterDefaults {
+    Evaluate		    "on"
+    Tunable		    "on"
+    NeverSave		    "off"
+    Internal		    "off"
+    ReadOnly		    "off"
+    Enabled		    "on"
+    Visible		    "on"
+    ToolTip		    "on"
+  }
+  BlockParameterDefaults {
+    Block {
+      BlockType		      Constant
+      Value		      "1"
+      VectorParams1D	      on
+      SamplingMode	      "Sample based"
+      OutMin		      "[]"
+      OutMax		      "[]"
+      OutDataTypeStr	      "Inherit: Inherit from 'Constant value'"
+      LockScale		      off
+      SampleTime	      "inf"
+      FramePeriod	      "inf"
+      PreserveConstantTs      off
+    }
+    Block {
+      BlockType		      DataTypeConversion
+      OutMin		      "[]"
+      OutMax		      "[]"
+      OutDataTypeStr	      "Inherit: Inherit via back propagation"
+      LockScale		      off
+      ConvertRealWorld	      "Real World Value (RWV)"
+      RndMeth		      "Zero"
+      SaturateOnIntegerOverflow	on
+      SampleTime	      "-1"
+    }
+    Block {
+      BlockType		      Display
+      Format		      "short"
+      Decimation	      "10"
+      Floating		      off
+      Lockdown		      off
+      SampleTime	      "-1"
+    }
+    Block {
+      BlockType		      Gain
+      Gain		      "1"
+      Multiplication	      "Element-wise(K.*u)"
+      ParamMin		      "[]"
+      ParamMax		      "[]"
+      ParamDataTypeStr	      "Inherit: Same as input"
+      OutMin		      "[]"
+      OutMax		      "[]"
+      OutDataTypeStr	      "Inherit: Same as input"
+      LockScale		      off
+      RndMeth		      "Floor"
+      SaturateOnIntegerOverflow	on
+      SampleTime	      "-1"
+    }
+    Block {
+      BlockType		      Inport
+      Port		      "1"
+      OutputFunctionCall      off
+      OutMin		      "[]"
+      OutMax		      "[]"
+      OutDataTypeStr	      "Inherit: auto"
+      LockScale		      off
+      BusOutputAsStruct	      off
+      PortDimensions	      "-1"
+      VarSizeSig	      "Inherit"
+      SampleTime	      "-1"
+      SignalType	      "auto"
+      SamplingMode	      "auto"
+      LatchByDelayingOutsideSignal off
+      LatchInputForFeedbackSignals off
+      Interpolate	      on
+    }
+    Block {
+      BlockType		      Mux
+      Inputs		      "4"
+      DisplayOption	      "none"
+      UseBusObject	      off
+      BusObject		      "BusObject"
+      NonVirtualBus	      off
+    }
+    Block {
+      BlockType		      Outport
+      Port		      "1"
+      OutMin		      "[]"
+      OutMax		      "[]"
+      OutDataTypeStr	      "Inherit: auto"
+      LockScale		      off
+      BusOutputAsStruct	      off
+      PortDimensions	      "-1"
+      VarSizeSig	      "Inherit"
+      SampleTime	      "-1"
+      SignalType	      "auto"
+      SamplingMode	      "auto"
+      SourceOfInitialOutputValue "Dialog"
+      OutputWhenDisabled      "held"
+      InitialOutput	      "[]"
+    }
+    Block {
+      BlockType		      Rounding
+      Operator		      "floor"
+      SampleTime	      "-1"
+    }
+    Block {
+      BlockType		      Saturate
+      UpperLimitSource	      "Dialog"
+      UpperLimit	      "0.5"
+      LowerLimitSource	      "Dialog"
+      LowerLimit	      "-0.5"
+      LinearizeAsGain	      on
+      ZeroCross		      on
+      SampleTime	      "-1"
+      OutMin		      "[]"
+      OutMax		      "[]"
+      OutDataTypeStr	      "Inherit: Same as input"
+      LockScale		      off
+      RndMeth		      "Floor"
+    }
+    Block {
+      BlockType		      SubSystem
+      ShowPortLabels	      "FromPortIcon"
+      Permissions	      "ReadWrite"
+      PermitHierarchicalResolution "All"
+      TreatAsAtomicUnit	      off
+      MinAlgLoopOccurrences   off
+      PropExecContextOutsideSubsystem off
+      CheckFcnCallInpInsideContextMsg off
+      SystemSampleTime	      "-1"
+      RTWSystemCode	      "Auto"
+      RTWFcnNameOpts	      "Auto"
+      RTWFileNameOpts	      "Auto"
+      FunctionInterfaceSpec   "void_void"
+      FunctionWithSeparateData off
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      SimViewingDevice	      off
+      DataTypeOverride	      "UseLocalSettings"
+      DataTypeOverrideAppliesTo	"AllNumericTypes"
+      MinMaxOverflowLogging   "UseLocalSettings"
+      Opaque		      off
+      MaskHideContents	      off
+      SFBlockType	      "NONE"
+      GeneratePreprocessorConditionals off
+      ContentPreviewEnabled   off
+      IsWebBlock	      off
+    }
+    Block {
+      BlockType		      Sum
+      IconShape		      "rectangular"
+      Inputs		      "++"
+      CollapseMode	      "All dimensions"
+      CollapseDim	      "1"
+      InputSameDT	      on
+      AccumDataTypeStr	      "Inherit: Inherit via internal rule"
+      OutMin		      "[]"
+      OutMax		      "[]"
+      OutDataTypeStr	      "Inherit: Same as first input"
+      LockScale		      off
+      RndMeth		      "Floor"
+      SaturateOnIntegerOverflow	on
+      SampleTime	      "-1"
+    }
+  }
+  System {
+    Name		    "Encode_To_DC"
+    Location		    [53, 23, 1072, 900]
+    Open		    on
+    ModelBrowserVisibility  off
+    ModelBrowserWidth	    200
+    ScreenColor		    "white"
+    PaperOrientation	    "landscape"
+    PaperPositionMode	    "auto"
+    PaperType		    "usletter"
+    PaperUnits		    "inches"
+    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+    TiledPageScale	    1
+    ShowPageBoundaries	    off
+    ZoomFactor		    "150"
+    ReportName		    "simulink-default.rpt"
+    SIDHighWatermark	    "606"
+    Block {
+      BlockType		      Constant
+      Name		      "Constant"
+      SID		      "587"
+      Position		      [435, 45, 465, 75]
+      ZOrder		      52
+    }
+    Block {
+      BlockType		      Constant
+      Name		      "Constant1"
+      SID		      "588"
+      Position		      [360, 80, 390, 110]
+      ZOrder		      178
+    }
+    Block {
+      BlockType		      Constant
+      Name		      "Constant2"
+      SID		      "589"
+      Position		      [385, 130, 415, 160]
+      ZOrder		      179
+    }
+    Block {
+      BlockType		      Constant
+      Name		      "Constant3"
+      SID		      "590"
+      Position		      [370, 180, 400, 210]
+      ZOrder		      180
+    }
+    Block {
+      BlockType		      Constant
+      Name		      "Constant4"
+      SID		      "591"
+      Position		      [370, 240, 400, 270]
+      ZOrder		      181
+    }
+    Block {
+      BlockType		      Constant
+      Name		      "Constant5"
+      SID		      "592"
+      Position		      [370, 290, 400, 320]
+      ZOrder		      182
+    }
+    Block {
+      BlockType		      Display
+      Name		      "Display1"
+      SID		      "150"
+      Ports		      [1]
+      Position		      [1380, 47, 1470, 603]
+      ZOrder		      176
+      Format		      "hex (Stored Integer)"
+      Decimation	      "1"
+    }
+    Block {
+      BlockType		      SubSystem
+      Name		      "Encode_To_DC"
+      SID		      "45"
+      Ports		      [28, 1]
+      Position		      [560, 79, 770, 806]
+      ZOrder		      -23
+      RequestExecContextInheritance off
+      Variant		      off
+      System {
+	Name			"Encode_To_DC"
+	Location		[53, 23, 1072, 900]
+	Open			off
+	ModelBrowserVisibility	off
+	ModelBrowserWidth	200
+	ScreenColor		"white"
+	PaperOrientation	"landscape"
+	PaperPositionMode	"auto"
+	PaperType		"usletter"
+	PaperUnits		"inches"
+	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
+	TiledPageScale		1
+	ShowPageBoundaries	off
+	ZoomFactor		"125"
+	Block {
+	  BlockType		  Inport
+	  Name			  "CIP_LongAccel"
+	  SID			  "67"
+	  Position		  [455, 3, 485, 17]
+	  ZOrder		  71
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "CIP_LateralVel"
+	  SID			  "46"
+	  Position		  [455, 33, 485, 47]
+	  ZOrder		  50
+	  Port			  "2"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "CIP_Range"
+	  SID			  "47"
+	  Position		  [455, 63, 485, 77]
+	  ZOrder		  51
+	  Port			  "3"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "CIP_LatOffset"
+	  SID			  "48"
+	  Position		  [455, 93, 485, 107]
+	  ZOrder		  52
+	  Port			  "4"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "vehicleSpeedOverGnd"
+	  SID			  "57"
+	  Position		  [455, 128, 485, 142]
+	  ZOrder		  181
+	  Port			  "5"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "LongAccOverGround"
+	  SID			  "58"
+	  Position		  [455, 158, 485, 172]
+	  ZOrder		  62
+	  Port			  "6"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "LateralAcceleration"
+	  SID			  "59"
+	  Position		  [455, 188, 485, 202]
+	  ZOrder		  63
+	  Port			  "7"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "YawRateActual"
+	  SID			  "60"
+	  Position		  [455, 228, 485, 242]
+	  ZOrder		  185
+	  Port			  "8"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "SteeringAngle"
+	  SID			  "61"
+	  Position		  [390, 268, 420, 282]
+	  ZOrder		  186
+	  Port			  "9"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "CIP_lane"
+	  SID			  "50"
+	  Position		  [455, 308, 485, 322]
+	  ZOrder		  54
+	  Port			  "10"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "Sensor_error"
+	  SID			  "52"
+	  Position		  [455, 343, 485, 357]
+	  ZOrder		  56
+	  Port			  "11"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "CIP_lane_change"
+	  SID			  "49"
+	  Position		  [-25, 423, 5, 437]
+	  ZOrder		  53
+	  Port			  "12"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "CIP_present"
+	  SID			  "51"
+	  Position		  [-25, 483, 5, 497]
+	  ZOrder		  55
+	  Port			  "13"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "CCOverride"
+	  SID			  "53"
+	  Position		  [-25, 543, 5, 557]
+	  ZOrder		  57
+	  Port			  "14"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "DriverBelted"
+	  SID			  "54"
+	  Position		  [-25, 573, 5, 587]
+	  ZOrder		  58
+	  Port			  "15"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "DriverBreaking"
+	  SID			  "55"
+	  Position		  [-25, 603, 5, 617]
+	  ZOrder		  59
+	  Port			  "16"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "Turn_indicatior"
+	  SID			  "56"
+	  Position		  [-265, 653, -235, 667]
+	  ZOrder		  60
+	  Port			  "17"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "AccPedalPosition"
+	  SID			  "62"
+	  Position		  [-15, 763, 15, 777]
+	  ZOrder		  66
+	  Port			  "18"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "Controller_Disabled"
+	  SID			  "121"
+	  Position		  [-15, 793, 15, 807]
+	  ZOrder		  145
+	  Port			  "19"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "Acceleration_Engage"
+	  SID			  "123"
+	  Position		  [-15, 823, 15, 837]
+	  ZOrder		  147
+	  Port			  "20"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "ACC_Engage"
+	  SID			  "124"
+	  Position		  [-15, 853, 15, 867]
+	  ZOrder		  148
+	  Port			  "21"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "Speed_limitor_engage"
+	  SID			  "125"
+	  Position		  [-15, 883, 15, 897]
+	  ZOrder		  149
+	  Port			  "22"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "Emergency_Break"
+	  SID			  "126"
+	  Position		  [-15, 913, 15, 927]
+	  ZOrder		  150
+	  Port			  "23"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "Collision_Warning"
+	  SID			  "127"
+	  Position		  [-15, 943, 15, 957]
+	  ZOrder		  151
+	  Port			  "24"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "Low_Beam_HeadLight_ON"
+	  SID			  "128"
+	  Position		  [-15, 973, 15, 987]
+	  ZOrder		  152
+	  Port			  "25"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "High_Beam_HeadLight_ON"
+	  SID			  "129"
+	  Position		  [-15, 1003, 15, 1017]
+	  ZOrder		  153
+	  Port			  "26"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "Daytime_Running_Light_ON"
+	  SID			  "130"
+	  Position		  [-15, 1033, 15, 1047]
+	  ZOrder		  154
+	  Port			  "27"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "Reverse_Light_ON"
+	  SID			  "131"
+	  Position		  [-15, 1063, 15, 1077]
+	  ZOrder		  155
+	  Port			  "28"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "16-bit:2"
+	  SID			  "420"
+	  Ports			  [2, 1]
+	  Position		  [520, 387, 680, 418]
+	  ZOrder		  233
+	  RequestExecContextInheritance	off
+	  Variant		  off
+	  System {
+	    Name		    "16-bit:2"
+	    Location		    [53, 23, 1200, 900]
+	    Open		    off
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "usletter"
+	    PaperUnits		    "inches"
+	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "100"
+	    Block {
+	      BlockType		      Inport
+	      Name		      "Value_Low"
+	      SID		      "421"
+	      Position		      [40, 218, 70, 232]
+	      ZOrder		      224
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      Inport
+	      Name		      "Value_High"
+	      SID		      "422"
+	      Position		      [40, 138, 70, 152]
+	      ZOrder		      225
+	      Port		      "2"
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      Sum
+	      Name		      "Add"
+	      SID		      "423"
+	      Ports		      [2, 1]
+	      Position		      [690, 137, 720, 168]
+	      ZOrder		      220
+	      InputSameDT	      off
+	      OutDataTypeStr	      "double"
+	      SaturateOnIntegerOverflow	off
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Bit Shift"
+	      SID		      "424"
+	      Ports		      [1, 1]
+	      Position		      [310, 114, 415, 176]
+	      ZOrder		      207
+	      LibraryVersion	      "1.195"
+	      SourceBlock	      "hdlsllib/HDL Operations/Bit Shift"
+	      SourceType	      "Bit Shift"
+	      ContentPreviewEnabled   off
+	      mode		      "Shift Left Logical"
+	      N			      "8"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Bitwise\nOperator"
+	      SID		      "425"
+	      Ports		      [1, 1]
+	      Position		      [365, 206, 405, 244]
+	      ZOrder		      221
+	      LibraryVersion	      "1.358"
+	      SourceBlock	      "simulink/Logic and Bit\nOperations/Bitwise\nOperator"
+	      SourceType	      "Bitwise Operator"
+	      logicop		      "AND"
+	      UseBitMask	      on
+	      NumInputPorts	      "1"
+	      BitMask		      "bin2dec('11111111')"
+	      BitMaskRealWorld	      "Stored Integer"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Bitwise\nOperator1"
+	      SID		      "426"
+	      Ports		      [1, 1]
+	      Position		      [595, 128, 665, 162]
+	      ZOrder		      227
+	      LibraryVersion	      "1.358"
+	      SourceBlock	      "simulink/Logic and Bit\nOperations/Bitwise\nOperator"
+	      SourceType	      "Bitwise Operator"
+	      logicop		      "AND"
+	      UseBitMask	      on
+	      NumInputPorts	      "1"
+	      BitMask		      "bin2dec('1111111100000000')"
+	      BitMaskRealWorld	      "Stored Integer"
+	    }
+	    Block {
+	      BlockType		      DataTypeConversion
+	      Name		      "Data Type Conversion"
+	      SID		      "427"
+	      Position		      [235, 208, 310, 242]
+	      ZOrder		      222
+	      OutDataTypeStr	      "uint32"
+	      RndMeth		      "Floor"
+	      SaturateOnIntegerOverflow	off
+	    }
+	    Block {
+	      BlockType		      DataTypeConversion
+	      Name		      "Data Type Conversion1"
+	      SID		      "428"
+	      Position		      [485, 128, 560, 162]
+	      ZOrder		      223
+	      OutDataTypeStr	      "uint32"
+	      RndMeth		      "Floor"
+	      SaturateOnIntegerOverflow	off
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Model Info"
+	      SID		      "429"
+	      Ports		      []
+	      Position		      [350, 349, 603, 488]
+	      ZOrder		      231
+	      ShowName		      off
+	      LibraryVersion	      "1.358"
+	      FontName		      "Arial"
+	      SourceBlock	      "simulink/Model-Wide\nUtilities/Model Info"
+	      SourceType	      "CMBlock"
+	      ContentPreviewEnabled   off
+	      Frame		      "on"
+	      DisplayStringWithTags   "%<Created>\n%<Creator>\n\nShift and round two double values into one double value.\n\n"
+	      "input:	two double values (treated as 8-bit)\noutput:	One double value(treated as 16-bit)"
+	      MaskDisplayString	      "Thu Mar 10 10:40:44 2016\\nOscar\\n\\nShift and round two double values into one doubl"
+	      "e value.\\n\\ninput:	two double values (treated as 8-bit)\\noutput:	One double value(treated as 16-bit)"
+	      HorizontalTextAlignment "Center"
+	      LeftAlignmentValue      "0.5"
+	      SourceBlockDiagram      "Encode_To_DC"
+	      TagMaxNumber	      "20"
+	    }
+	    Block {
+	      BlockType		      Rounding
+	      Name		      "Rounding\nFunction"
+	      SID		      "430"
+	      Position		      [230, 130, 260, 160]
+	      ZOrder		      213
+	      Operator		      "round"
+	    }
+	    Block {
+	      BlockType		      Rounding
+	      Name		      "Rounding\nFunction1"
+	      SID		      "431"
+	      Position		      [155, 210, 185, 240]
+	      ZOrder		      219
+	      Operator		      "round"
+	    }
+	    Block {
+	      BlockType		      Outport
+	      Name		      "Merged_doble"
+	      SID		      "432"
+	      Position		      [885, 148, 915, 162]
+	      ZOrder		      226
+	      IconDisplay	      "Port number"
+	    }
+	    Line {
+	      ZOrder		      1
+	      SrcBlock		      "Bit Shift"
+	      SrcPort		      1
+	      DstBlock		      "Data Type Conversion1"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      2
+	      SrcBlock		      "Data Type Conversion1"
+	      SrcPort		      1
+	      DstBlock		      "Bitwise\nOperator1"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      3
+	      SrcBlock		      "Rounding\nFunction"
+	      SrcPort		      1
+	      DstBlock		      "Bit Shift"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      4
+	      SrcBlock		      "Data Type Conversion"
+	      SrcPort		      1
+	      DstBlock		      "Bitwise\nOperator"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      5
+	      SrcBlock		      "Bitwise\nOperator"
+	      SrcPort		      1
+	      Points		      [38, 0; 0, -65]
+	      DstBlock		      "Add"
+	      DstPort		      2
+	    }
+	    Line {
+	      ZOrder		      6
+	      SrcBlock		      "Rounding\nFunction1"
+	      SrcPort		      1
+	      DstBlock		      "Data Type Conversion"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      7
+	      SrcBlock		      "Bitwise\nOperator1"
+	      SrcPort		      1
+	      DstBlock		      "Add"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      8
+	      SrcBlock		      "Add"
+	      SrcPort		      1
+	      DstBlock		      "Merged_doble"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      9
+	      SrcBlock		      "Value_Low"
+	      SrcPort		      1
+	      DstBlock		      "Rounding\nFunction1"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      10
+	      SrcBlock		      "Value_High"
+	      SrcPort		      1
+	      DstBlock		      "Rounding\nFunction"
+	      DstPort		      1
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "16-bit:3"
+	  SID			  "546"
+	  Ports			  [2, 1]
+	  Position		  [530, 447, 690, 478]
+	  ZOrder		  243
+	  RequestExecContextInheritance	off
+	  Variant		  off
+	  System {
+	    Name		    "16-bit:3"
+	    Location		    [53, 23, 1200, 900]
+	    Open		    off
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "usletter"
+	    PaperUnits		    "inches"
+	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "100"
+	    Block {
+	      BlockType		      Inport
+	      Name		      "Value_Low"
+	      SID		      "547"
+	      Position		      [40, 218, 70, 232]
+	      ZOrder		      224
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      Inport
+	      Name		      "Value_High"
+	      SID		      "548"
+	      Position		      [40, 138, 70, 152]
+	      ZOrder		      225
+	      Port		      "2"
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      Sum
+	      Name		      "Add"
+	      SID		      "549"
+	      Ports		      [2, 1]
+	      Position		      [690, 137, 720, 168]
+	      ZOrder		      220
+	      InputSameDT	      off
+	      OutDataTypeStr	      "double"
+	      SaturateOnIntegerOverflow	off
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Bit Shift"
+	      SID		      "550"
+	      Ports		      [1, 1]
+	      Position		      [310, 114, 415, 176]
+	      ZOrder		      207
+	      LibraryVersion	      "1.195"
+	      SourceBlock	      "hdlsllib/HDL Operations/Bit Shift"
+	      SourceType	      "Bit Shift"
+	      ContentPreviewEnabled   off
+	      mode		      "Shift Left Logical"
+	      N			      "8"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Bitwise\nOperator"
+	      SID		      "551"
+	      Ports		      [1, 1]
+	      Position		      [365, 206, 405, 244]
+	      ZOrder		      221
+	      LibraryVersion	      "1.358"
+	      SourceBlock	      "simulink/Logic and Bit\nOperations/Bitwise\nOperator"
+	      SourceType	      "Bitwise Operator"
+	      logicop		      "AND"
+	      UseBitMask	      on
+	      NumInputPorts	      "1"
+	      BitMask		      "bin2dec('11111111')"
+	      BitMaskRealWorld	      "Stored Integer"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Bitwise\nOperator1"
+	      SID		      "552"
+	      Ports		      [1, 1]
+	      Position		      [595, 128, 665, 162]
+	      ZOrder		      227
+	      LibraryVersion	      "1.358"
+	      SourceBlock	      "simulink/Logic and Bit\nOperations/Bitwise\nOperator"
+	      SourceType	      "Bitwise Operator"
+	      logicop		      "AND"
+	      UseBitMask	      on
+	      NumInputPorts	      "1"
+	      BitMask		      "bin2dec('1111111100000000')"
+	      BitMaskRealWorld	      "Stored Integer"
+	    }
+	    Block {
+	      BlockType		      DataTypeConversion
+	      Name		      "Data Type Conversion"
+	      SID		      "553"
+	      Position		      [235, 208, 310, 242]
+	      ZOrder		      222
+	      OutDataTypeStr	      "uint32"
+	      RndMeth		      "Floor"
+	      SaturateOnIntegerOverflow	off
+	    }
+	    Block {
+	      BlockType		      DataTypeConversion
+	      Name		      "Data Type Conversion1"
+	      SID		      "554"
+	      Position		      [485, 128, 560, 162]
+	      ZOrder		      223
+	      OutDataTypeStr	      "uint32"
+	      RndMeth		      "Floor"
+	      SaturateOnIntegerOverflow	off
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Model Info"
+	      SID		      "555"
+	      Ports		      []
+	      Position		      [350, 349, 603, 488]
+	      ZOrder		      231
+	      ShowName		      off
+	      LibraryVersion	      "1.358"
+	      FontName		      "Arial"
+	      SourceBlock	      "simulink/Model-Wide\nUtilities/Model Info"
+	      SourceType	      "CMBlock"
+	      ContentPreviewEnabled   off
+	      Frame		      "on"
+	      DisplayStringWithTags   "%<Created>\n%<Creator>\n\nShift and round two double values into one double value.\n\n"
+	      "input:	two double values (treated as 8-bit)\noutput:	One double value(treated as 16-bit)"
+	      MaskDisplayString	      "Thu Mar 10 10:40:44 2016\\nOscar\\n\\nShift and round two double values into one doubl"
+	      "e value.\\n\\ninput:	two double values (treated as 8-bit)\\noutput:	One double value(treated as 16-bit)"
+	      HorizontalTextAlignment "Center"
+	      LeftAlignmentValue      "0.5"
+	      SourceBlockDiagram      "Encode_To_DC"
+	      TagMaxNumber	      "20"
+	    }
+	    Block {
+	      BlockType		      Rounding
+	      Name		      "Rounding\nFunction"
+	      SID		      "556"
+	      Position		      [230, 130, 260, 160]
+	      ZOrder		      213
+	      Operator		      "round"
+	    }
+	    Block {
+	      BlockType		      Rounding
+	      Name		      "Rounding\nFunction1"
+	      SID		      "557"
+	      Position		      [155, 210, 185, 240]
+	      ZOrder		      219
+	      Operator		      "round"
+	    }
+	    Block {
+	      BlockType		      Outport
+	      Name		      "Merged_doble"
+	      SID		      "558"
+	      Position		      [885, 148, 915, 162]
+	      ZOrder		      226
+	      IconDisplay	      "Port number"
+	    }
+	    Line {
+	      ZOrder		      1
+	      SrcBlock		      "Bit Shift"
+	      SrcPort		      1
+	      DstBlock		      "Data Type Conversion1"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      2
+	      SrcBlock		      "Data Type Conversion1"
+	      SrcPort		      1
+	      DstBlock		      "Bitwise\nOperator1"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      3
+	      SrcBlock		      "Rounding\nFunction"
+	      SrcPort		      1
+	      DstBlock		      "Bit Shift"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      4
+	      SrcBlock		      "Data Type Conversion"
+	      SrcPort		      1
+	      DstBlock		      "Bitwise\nOperator"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      5
+	      SrcBlock		      "Bitwise\nOperator"
+	      SrcPort		      1
+	      Points		      [38, 0; 0, -65]
+	      DstBlock		      "Add"
+	      DstPort		      2
+	    }
+	    Line {
+	      ZOrder		      6
+	      SrcBlock		      "Rounding\nFunction1"
+	      SrcPort		      1
+	      DstBlock		      "Data Type Conversion"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      7
+	      SrcBlock		      "Bitwise\nOperator1"
+	      SrcPort		      1
+	      DstBlock		      "Add"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      8
+	      SrcBlock		      "Add"
+	      SrcPort		      1
+	      DstBlock		      "Merged_doble"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      9
+	      SrcBlock		      "Value_Low"
+	      SrcPort		      1
+	      DstBlock		      "Rounding\nFunction1"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      10
+	      SrcBlock		      "Value_High"
+	      SrcPort		      1
+	      DstBlock		      "Rounding\nFunction"
+	      DstPort		      1
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "16bit:1"
+	  SID			  "493"
+	  Ports			  [2, 1]
+	  Position		  [595, 317, 755, 348]
+	  ZOrder		  239
+	  RequestExecContextInheritance	off
+	  Variant		  off
+	  System {
+	    Name		    "16bit:1"
+	    Location		    [53, 23, 1072, 900]
+	    Open		    off
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "usletter"
+	    PaperUnits		    "inches"
+	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "100"
+	    Block {
+	      BlockType		      Inport
+	      Name		      "Value_Low"
+	      SID		      "494"
+	      Position		      [40, 218, 70, 232]
+	      ZOrder		      224
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      Inport
+	      Name		      "Value_High"
+	      SID		      "495"
+	      Position		      [40, 138, 70, 152]
+	      ZOrder		      225
+	      Port		      "2"
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      Sum
+	      Name		      "Add"
+	      SID		      "496"
+	      Ports		      [2, 1]
+	      Position		      [690, 137, 720, 168]
+	      ZOrder		      220
+	      InputSameDT	      off
+	      OutDataTypeStr	      "double"
+	      SaturateOnIntegerOverflow	off
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Bit Shift"
+	      SID		      "497"
+	      Ports		      [1, 1]
+	      Position		      [310, 114, 415, 176]
+	      ZOrder		      207
+	      LibraryVersion	      "1.195"
+	      SourceBlock	      "hdlsllib/HDL Operations/Bit Shift"
+	      SourceType	      "Bit Shift"
+	      ContentPreviewEnabled   off
+	      mode		      "Shift Left Logical"
+	      N			      "8"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Bitwise\nOperator"
+	      SID		      "498"
+	      Ports		      [1, 1]
+	      Position		      [365, 206, 405, 244]
+	      ZOrder		      221
+	      LibraryVersion	      "1.358"
+	      SourceBlock	      "simulink/Logic and Bit\nOperations/Bitwise\nOperator"
+	      SourceType	      "Bitwise Operator"
+	      logicop		      "AND"
+	      UseBitMask	      on
+	      NumInputPorts	      "1"
+	      BitMask		      "bin2dec('11111111')"
+	      BitMaskRealWorld	      "Stored Integer"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Bitwise\nOperator1"
+	      SID		      "499"
+	      Ports		      [1, 1]
+	      Position		      [595, 128, 665, 162]
+	      ZOrder		      227
+	      LibraryVersion	      "1.358"
+	      SourceBlock	      "simulink/Logic and Bit\nOperations/Bitwise\nOperator"
+	      SourceType	      "Bitwise Operator"
+	      logicop		      "AND"
+	      UseBitMask	      on
+	      NumInputPorts	      "1"
+	      BitMask		      "bin2dec('1111111100000000')"
+	      BitMaskRealWorld	      "Stored Integer"
+	    }
+	    Block {
+	      BlockType		      DataTypeConversion
+	      Name		      "Data Type Conversion"
+	      SID		      "500"
+	      Position		      [235, 208, 310, 242]
+	      ZOrder		      222
+	      OutDataTypeStr	      "uint32"
+	      RndMeth		      "Floor"
+	      SaturateOnIntegerOverflow	off
+	    }
+	    Block {
+	      BlockType		      DataTypeConversion
+	      Name		      "Data Type Conversion1"
+	      SID		      "501"
+	      Position		      [485, 128, 560, 162]
+	      ZOrder		      223
+	      OutDataTypeStr	      "uint32"
+	      RndMeth		      "Floor"
+	      SaturateOnIntegerOverflow	off
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Model Info"
+	      SID		      "502"
+	      Ports		      []
+	      Position		      [350, 349, 603, 488]
+	      ZOrder		      231
+	      ShowName		      off
+	      LibraryVersion	      "1.358"
+	      FontName		      "Arial"
+	      SourceBlock	      "simulink/Model-Wide\nUtilities/Model Info"
+	      SourceType	      "CMBlock"
+	      ContentPreviewEnabled   off
+	      Frame		      "on"
+	      DisplayStringWithTags   "%<Created>\n%<Creator>\n\nShift and round two double values into one double value.\n\n"
+	      "input:	two double values (treated as 8-bit)\noutput:	One double value(treated as 16-bit)"
+	      MaskDisplayString	      "Thu Mar 10 10:40:44 2016\\nOscar\\n\\nShift and round two double values into one doubl"
+	      "e value.\\n\\ninput:	two double values (treated as 8-bit)\\noutput:	One double value(treated as 16-bit)"
+	      HorizontalTextAlignment "Center"
+	      LeftAlignmentValue      "0.5"
+	      SourceBlockDiagram      "Encode_To_DC"
+	      TagMaxNumber	      "20"
+	    }
+	    Block {
+	      BlockType		      Rounding
+	      Name		      "Rounding\nFunction"
+	      SID		      "503"
+	      Position		      [230, 130, 260, 160]
+	      ZOrder		      213
+	      Operator		      "round"
+	    }
+	    Block {
+	      BlockType		      Rounding
+	      Name		      "Rounding\nFunction1"
+	      SID		      "504"
+	      Position		      [155, 210, 185, 240]
+	      ZOrder		      219
+	      Operator		      "round"
+	    }
+	    Block {
+	      BlockType		      Outport
+	      Name		      "Merged_doble"
+	      SID		      "505"
+	      Position		      [885, 148, 915, 162]
+	      ZOrder		      226
+	      IconDisplay	      "Port number"
+	    }
+	    Line {
+	      ZOrder		      1
+	      SrcBlock		      "Bit Shift"
+	      SrcPort		      1
+	      DstBlock		      "Data Type Conversion1"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      2
+	      SrcBlock		      "Data Type Conversion1"
+	      SrcPort		      1
+	      DstBlock		      "Bitwise\nOperator1"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      3
+	      SrcBlock		      "Rounding\nFunction"
+	      SrcPort		      1
+	      DstBlock		      "Bit Shift"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      4
+	      SrcBlock		      "Data Type Conversion"
+	      SrcPort		      1
+	      DstBlock		      "Bitwise\nOperator"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      5
+	      SrcBlock		      "Bitwise\nOperator"
+	      SrcPort		      1
+	      Points		      [38, 0; 0, -65]
+	      DstBlock		      "Add"
+	      DstPort		      2
+	    }
+	    Line {
+	      ZOrder		      6
+	      SrcBlock		      "Rounding\nFunction1"
+	      SrcPort		      1
+	      DstBlock		      "Data Type Conversion"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      7
+	      SrcBlock		      "Bitwise\nOperator1"
+	      SrcPort		      1
+	      DstBlock		      "Add"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      8
+	      SrcBlock		      "Add"
+	      SrcPort		      1
+	      DstBlock		      "Merged_doble"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      9
+	      SrcBlock		      "Value_Low"
+	      SrcPort		      1
+	      DstBlock		      "Rounding\nFunction1"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      10
+	      SrcBlock		      "Value_High"
+	      SrcPort		      1
+	      DstBlock		      "Rounding\nFunction"
+	      DstPort		      1
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "32-bit-5"
+	  SID			  "481"
+	  Ports			  [2, 1]
+	  Position		  [825, 252, 955, 283]
+	  ZOrder		  238
+	  RequestExecContextInheritance	off
+	  Variant		  off
+	  System {
+	    Name		    "32-bit-5"
+	    Location		    [53, 23, 1072, 900]
+	    Open		    off
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "usletter"
+	    PaperUnits		    "inches"
+	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "100"
+	    Block {
+	      BlockType		      Inport
+	      Name		      "Value_Low"
+	      SID		      "482"
+	      Position		      [20, 218, 50, 232]
+	      ZOrder		      224
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      Inport
+	      Name		      "Value_High"
+	      SID		      "483"
+	      Position		      [20, 138, 50, 152]
+	      ZOrder		      225
+	      Port		      "2"
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      Sum
+	      Name		      "Add"
+	      SID		      "484"
+	      Ports		      [2, 1]
+	      Position		      [690, 137, 720, 168]
+	      ZOrder		      220
+	      InputSameDT	      off
+	      OutDataTypeStr	      "Inherit: Inherit via internal rule"
+	      SaturateOnIntegerOverflow	off
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Bit Shift"
+	      SID		      "485"
+	      Ports		      [1, 1]
+	      Position		      [310, 114, 415, 176]
+	      ZOrder		      207
+	      LibraryVersion	      "1.195"
+	      SourceBlock	      "hdlsllib/HDL Operations/Bit Shift"
+	      SourceType	      "Bit Shift"
+	      ContentPreviewEnabled   off
+	      mode		      "Shift Left Logical"
+	      N			      "16"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Bitwise\nOperator"
+	      SID		      "486"
+	      Ports		      [1, 1]
+	      Position		      [365, 206, 405, 244]
+	      ZOrder		      221
+	      LibraryVersion	      "1.358"
+	      SourceBlock	      "simulink/Logic and Bit\nOperations/Bitwise\nOperator"
+	      SourceType	      "Bitwise Operator"
+	      logicop		      "AND"
+	      UseBitMask	      on
+	      NumInputPorts	      "1"
+	      BitMask		      "bin2dec('1111111111111111')"
+	      BitMaskRealWorld	      "Stored Integer"
+	    }
+	    Block {
+	      BlockType		      DataTypeConversion
+	      Name		      "Data Type Conversion"
+	      SID		      "487"
+	      Position		      [235, 208, 310, 242]
+	      ZOrder		      222
+	      OutDataTypeStr	      "uint32"
+	      RndMeth		      "Floor"
+	      SaturateOnIntegerOverflow	off
+	    }
+	    Block {
+	      BlockType		      DataTypeConversion
+	      Name		      "Data Type Conversion1"
+	      SID		      "488"
+	      Position		      [520, 118, 595, 152]
+	      ZOrder		      223
+	      OutDataTypeStr	      "uint32"
+	      RndMeth		      "Floor"
+	      SaturateOnIntegerOverflow	off
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Model Info"
+	      SID		      "489"
+	      Ports		      []
+	      Position		      [450, 309, 703, 448]
+	      ZOrder		      233
+	      ShowName		      off
+	      LibraryVersion	      "1.358"
+	      FontName		      "Arial"
+	      SourceBlock	      "simulink/Model-Wide\nUtilities/Model Info"
+	      SourceType	      "CMBlock"
+	      ContentPreviewEnabled   off
+	      Frame		      "on"
+	      DisplayStringWithTags   "%<Created>\n%<Creator>\n\nShift and round two double values into one double value.\n\n"
+	      "input:	two double values (treated as 16-bit)\noutput:	One uint32 value"
+	      MaskDisplayString	      "Thu Mar 10 10:40:44 2016\\nOscar\\n\\nShift and round two double values into one doubl"
+	      "e value.\\n\\ninput:	two double values (treated as 16-bit)\\noutput:	One uint32 value"
+	      HorizontalTextAlignment "Center"
+	      LeftAlignmentValue      "0.5"
+	      SourceBlockDiagram      "Encode_To_DC"
+	      TagMaxNumber	      "20"
+	    }
+	    Block {
+	      BlockType		      Rounding
+	      Name		      "Rounding\nFunction"
+	      SID		      "490"
+	      Position		      [230, 130, 260, 160]
+	      ZOrder		      213
+	      Operator		      "round"
+	    }
+	    Block {
+	      BlockType		      Rounding
+	      Name		      "Rounding\nFunction1"
+	      SID		      "491"
+	      Position		      [155, 210, 185, 240]
+	      ZOrder		      219
+	      Operator		      "round"
+	    }
+	    Block {
+	      BlockType		      Outport
+	      Name		      "Merged_uint32"
+	      SID		      "492"
+	      Position		      [780, 148, 810, 162]
+	      ZOrder		      226
+	      IconDisplay	      "Port number"
+	    }
+	    Line {
+	      ZOrder		      1
+	      SrcBlock		      "Bit Shift"
+	      SrcPort		      1
+	      Points		      [48, 0; 0, -10]
+	      DstBlock		      "Data Type Conversion1"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      2
+	      SrcBlock		      "Data Type Conversion1"
+	      SrcPort		      1
+	      Points		      [43, 0; 0, 10]
+	      DstBlock		      "Add"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      3
+	      SrcBlock		      "Rounding\nFunction"
+	      SrcPort		      1
+	      DstBlock		      "Bit Shift"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      4
+	      SrcBlock		      "Data Type Conversion"
+	      SrcPort		      1
+	      DstBlock		      "Bitwise\nOperator"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      5
+	      SrcBlock		      "Add"
+	      SrcPort		      1
+	      DstBlock		      "Merged_uint32"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      6
+	      SrcBlock		      "Bitwise\nOperator"
+	      SrcPort		      1
+	      Points		      [38, 0; 0, -65]
+	      DstBlock		      "Add"
+	      DstPort		      2
+	    }
+	    Line {
+	      ZOrder		      7
+	      SrcBlock		      "Rounding\nFunction1"
+	      SrcPort		      1
+	      DstBlock		      "Data Type Conversion"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      8
+	      SrcBlock		      "Value_High"
+	      SrcPort		      1
+	      DstBlock		      "Rounding\nFunction"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      9
+	      SrcBlock		      "Value_Low"
+	      SrcPort		      1
+	      DstBlock		      "Rounding\nFunction1"
+	      DstPort		      1
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "32-bit:1"
+	  SID			  "433"
+	  Ports			  [2, 1]
+	  Position		  [825, 2, 955, 33]
+	  ZOrder		  234
+	  RequestExecContextInheritance	off
+	  Variant		  off
+	  System {
+	    Name		    "32-bit:1"
+	    Location		    [53, 23, 1072, 900]
+	    Open		    off
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "usletter"
+	    PaperUnits		    "inches"
+	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "80"
+	    Block {
+	      BlockType		      Inport
+	      Name		      "Value_Low"
+	      SID		      "434"
+	      Position		      [20, 218, 50, 232]
+	      ZOrder		      224
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      Inport
+	      Name		      "Value_High"
+	      SID		      "435"
+	      Position		      [20, 138, 50, 152]
+	      ZOrder		      225
+	      Port		      "2"
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      Sum
+	      Name		      "Add"
+	      SID		      "436"
+	      Ports		      [2, 1]
+	      Position		      [690, 137, 720, 168]
+	      ZOrder		      220
+	      InputSameDT	      off
+	      OutDataTypeStr	      "Inherit: Inherit via internal rule"
+	      SaturateOnIntegerOverflow	off
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Bit Shift"
+	      SID		      "437"
+	      Ports		      [1, 1]
+	      Position		      [310, 114, 415, 176]
+	      ZOrder		      207
+	      LibraryVersion	      "1.195"
+	      SourceBlock	      "hdlsllib/HDL Operations/Bit Shift"
+	      SourceType	      "Bit Shift"
+	      ContentPreviewEnabled   off
+	      mode		      "Shift Left Logical"
+	      N			      "16"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Bitwise\nOperator"
+	      SID		      "438"
+	      Ports		      [1, 1]
+	      Position		      [365, 206, 405, 244]
+	      ZOrder		      221
+	      LibraryVersion	      "1.358"
+	      SourceBlock	      "simulink/Logic and Bit\nOperations/Bitwise\nOperator"
+	      SourceType	      "Bitwise Operator"
+	      logicop		      "AND"
+	      UseBitMask	      on
+	      NumInputPorts	      "1"
+	      BitMask		      "bin2dec('1111111111111111')"
+	      BitMaskRealWorld	      "Stored Integer"
+	    }
+	    Block {
+	      BlockType		      DataTypeConversion
+	      Name		      "Data Type Conversion"
+	      SID		      "439"
+	      Position		      [235, 208, 310, 242]
+	      ZOrder		      222
+	      OutDataTypeStr	      "uint32"
+	      RndMeth		      "Floor"
+	      SaturateOnIntegerOverflow	off
+	    }
+	    Block {
+	      BlockType		      DataTypeConversion
+	      Name		      "Data Type Conversion1"
+	      SID		      "440"
+	      Position		      [520, 118, 595, 152]
+	      ZOrder		      223
+	      OutDataTypeStr	      "uint32"
+	      RndMeth		      "Floor"
+	      SaturateOnIntegerOverflow	off
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Model Info"
+	      SID		      "441"
+	      Ports		      []
+	      Position		      [450, 309, 703, 448]
+	      ZOrder		      233
+	      ShowName		      off
+	      LibraryVersion	      "1.358"
+	      FontName		      "Arial"
+	      SourceBlock	      "simulink/Model-Wide\nUtilities/Model Info"
+	      SourceType	      "CMBlock"
+	      ContentPreviewEnabled   off
+	      Frame		      "on"
+	      DisplayStringWithTags   "%<Created>\n%<Creator>\n\nShift and round two double values into one double value.\n\n"
+	      "input:	two double values (treated as 16-bit)\noutput:	One uint32 value"
+	      MaskDisplayString	      "Thu Mar 10 10:40:44 2016\\nOscar\\n\\nShift and round two double values into one doubl"
+	      "e value.\\n\\ninput:	two double values (treated as 16-bit)\\noutput:	One uint32 value"
+	      HorizontalTextAlignment "Center"
+	      LeftAlignmentValue      "0.5"
+	      SourceBlockDiagram      "Encode_To_DC"
+	      TagMaxNumber	      "20"
+	    }
+	    Block {
+	      BlockType		      Rounding
+	      Name		      "Rounding\nFunction"
+	      SID		      "442"
+	      Position		      [230, 130, 260, 160]
+	      ZOrder		      213
+	      Operator		      "round"
+	    }
+	    Block {
+	      BlockType		      Rounding
+	      Name		      "Rounding\nFunction1"
+	      SID		      "443"
+	      Position		      [155, 210, 185, 240]
+	      ZOrder		      219
+	      Operator		      "round"
+	    }
+	    Block {
+	      BlockType		      Outport
+	      Name		      "Merged_uint32"
+	      SID		      "444"
+	      Position		      [780, 148, 810, 162]
+	      ZOrder		      226
+	      IconDisplay	      "Port number"
+	    }
+	    Line {
+	      ZOrder		      1
+	      SrcBlock		      "Bit Shift"
+	      SrcPort		      1
+	      Points		      [48, 0; 0, -10]
+	      DstBlock		      "Data Type Conversion1"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      2
+	      SrcBlock		      "Data Type Conversion1"
+	      SrcPort		      1
+	      Points		      [43, 0; 0, 10]
+	      DstBlock		      "Add"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      3
+	      SrcBlock		      "Rounding\nFunction"
+	      SrcPort		      1
+	      DstBlock		      "Bit Shift"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      4
+	      SrcBlock		      "Data Type Conversion"
+	      SrcPort		      1
+	      DstBlock		      "Bitwise\nOperator"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      5
+	      SrcBlock		      "Add"
+	      SrcPort		      1
+	      DstBlock		      "Merged_uint32"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      6
+	      SrcBlock		      "Bitwise\nOperator"
+	      SrcPort		      1
+	      Points		      [38, 0; 0, -65]
+	      DstBlock		      "Add"
+	      DstPort		      2
+	    }
+	    Line {
+	      ZOrder		      7
+	      SrcBlock		      "Rounding\nFunction1"
+	      SrcPort		      1
+	      DstBlock		      "Data Type Conversion"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      8
+	      SrcBlock		      "Value_High"
+	      SrcPort		      1
+	      DstBlock		      "Rounding\nFunction"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      9
+	      SrcBlock		      "Value_Low"
+	      SrcPort		      1
+	      DstBlock		      "Rounding\nFunction1"
+	      DstPort		      1
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "32-bit:4"
+	  SID			  "469"
+	  Ports			  [2, 1]
+	  Position		  [825, 187, 955, 218]
+	  ZOrder		  237
+	  RequestExecContextInheritance	off
+	  Variant		  off
+	  System {
+	    Name		    "32-bit:4"
+	    Location		    [53, 23, 1072, 900]
+	    Open		    off
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "usletter"
+	    PaperUnits		    "inches"
+	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "100"
+	    Block {
+	      BlockType		      Inport
+	      Name		      "Value_Low"
+	      SID		      "470"
+	      Position		      [20, 218, 50, 232]
+	      ZOrder		      224
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      Inport
+	      Name		      "Value_High"
+	      SID		      "471"
+	      Position		      [20, 138, 50, 152]
+	      ZOrder		      225
+	      Port		      "2"
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      Sum
+	      Name		      "Add"
+	      SID		      "472"
+	      Ports		      [2, 1]
+	      Position		      [690, 137, 720, 168]
+	      ZOrder		      220
+	      InputSameDT	      off
+	      OutDataTypeStr	      "Inherit: Inherit via internal rule"
+	      SaturateOnIntegerOverflow	off
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Bit Shift"
+	      SID		      "473"
+	      Ports		      [1, 1]
+	      Position		      [310, 114, 415, 176]
+	      ZOrder		      207
+	      LibraryVersion	      "1.195"
+	      SourceBlock	      "hdlsllib/HDL Operations/Bit Shift"
+	      SourceType	      "Bit Shift"
+	      ContentPreviewEnabled   off
+	      mode		      "Shift Left Logical"
+	      N			      "16"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Bitwise\nOperator"
+	      SID		      "474"
+	      Ports		      [1, 1]
+	      Position		      [365, 206, 405, 244]
+	      ZOrder		      221
+	      LibraryVersion	      "1.358"
+	      SourceBlock	      "simulink/Logic and Bit\nOperations/Bitwise\nOperator"
+	      SourceType	      "Bitwise Operator"
+	      logicop		      "AND"
+	      UseBitMask	      on
+	      NumInputPorts	      "1"
+	      BitMask		      "bin2dec('1111111111111111')"
+	      BitMaskRealWorld	      "Stored Integer"
+	    }
+	    Block {
+	      BlockType		      DataTypeConversion
+	      Name		      "Data Type Conversion"
+	      SID		      "475"
+	      Position		      [235, 208, 310, 242]
+	      ZOrder		      222
+	      OutDataTypeStr	      "uint32"
+	      RndMeth		      "Floor"
+	      SaturateOnIntegerOverflow	off
+	    }
+	    Block {
+	      BlockType		      DataTypeConversion
+	      Name		      "Data Type Conversion1"
+	      SID		      "476"
+	      Position		      [520, 118, 595, 152]
+	      ZOrder		      223
+	      OutDataTypeStr	      "uint32"
+	      RndMeth		      "Floor"
+	      SaturateOnIntegerOverflow	off
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Model Info"
+	      SID		      "477"
+	      Ports		      []
+	      Position		      [450, 309, 703, 448]
+	      ZOrder		      233
+	      ShowName		      off
+	      LibraryVersion	      "1.358"
+	      FontName		      "Arial"
+	      SourceBlock	      "simulink/Model-Wide\nUtilities/Model Info"
+	      SourceType	      "CMBlock"
+	      ContentPreviewEnabled   off
+	      Frame		      "on"
+	      DisplayStringWithTags   "%<Created>\n%<Creator>\n\nShift and round two double values into one double value.\n\n"
+	      "input:	two double values (treated as 16-bit)\noutput:	One uint32 value"
+	      MaskDisplayString	      "Thu Mar 10 10:40:44 2016\\nOscar\\n\\nShift and round two double values into one doubl"
+	      "e value.\\n\\ninput:	two double values (treated as 16-bit)\\noutput:	One uint32 value"
+	      HorizontalTextAlignment "Center"
+	      LeftAlignmentValue      "0.5"
+	      SourceBlockDiagram      "Encode_To_DC"
+	      TagMaxNumber	      "20"
+	    }
+	    Block {
+	      BlockType		      Rounding
+	      Name		      "Rounding\nFunction"
+	      SID		      "478"
+	      Position		      [230, 130, 260, 160]
+	      ZOrder		      213
+	      Operator		      "round"
+	    }
+	    Block {
+	      BlockType		      Rounding
+	      Name		      "Rounding\nFunction1"
+	      SID		      "479"
+	      Position		      [155, 210, 185, 240]
+	      ZOrder		      219
+	      Operator		      "round"
+	    }
+	    Block {
+	      BlockType		      Outport
+	      Name		      "Merged_uint32"
+	      SID		      "480"
+	      Position		      [780, 148, 810, 162]
+	      ZOrder		      226
+	      IconDisplay	      "Port number"
+	    }
+	    Line {
+	      ZOrder		      1
+	      SrcBlock		      "Bit Shift"
+	      SrcPort		      1
+	      Points		      [48, 0; 0, -10]
+	      DstBlock		      "Data Type Conversion1"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      2
+	      SrcBlock		      "Data Type Conversion1"
+	      SrcPort		      1
+	      Points		      [43, 0; 0, 10]
+	      DstBlock		      "Add"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      3
+	      SrcBlock		      "Rounding\nFunction"
+	      SrcPort		      1
+	      DstBlock		      "Bit Shift"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      4
+	      SrcBlock		      "Data Type Conversion"
+	      SrcPort		      1
+	      DstBlock		      "Bitwise\nOperator"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      5
+	      SrcBlock		      "Add"
+	      SrcPort		      1
+	      DstBlock		      "Merged_uint32"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      6
+	      SrcBlock		      "Bitwise\nOperator"
+	      SrcPort		      1
+	      Points		      [38, 0; 0, -65]
+	      DstBlock		      "Add"
+	      DstPort		      2
+	    }
+	    Line {
+	      ZOrder		      7
+	      SrcBlock		      "Rounding\nFunction1"
+	      SrcPort		      1
+	      DstBlock		      "Data Type Conversion"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      8
+	      SrcBlock		      "Value_High"
+	      SrcPort		      1
+	      DstBlock		      "Rounding\nFunction"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      9
+	      SrcBlock		      "Value_Low"
+	      SrcPort		      1
+	      DstBlock		      "Rounding\nFunction1"
+	      DstPort		      1
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "32-bit:6"
+	  SID			  "533"
+	  Ports			  [2, 1]
+	  Position		  [825, 382, 955, 413]
+	  ZOrder		  241
+	  RequestExecContextInheritance	off
+	  Variant		  off
+	  System {
+	    Name		    "32-bit:6"
+	    Location		    [53, 23, 1200, 900]
+	    Open		    off
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "usletter"
+	    PaperUnits		    "inches"
+	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "100"
+	    Block {
+	      BlockType		      Inport
+	      Name		      "Value_Low"
+	      SID		      "534"
+	      Position		      [20, 218, 50, 232]
+	      ZOrder		      224
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      Inport
+	      Name		      "Value_High"
+	      SID		      "535"
+	      Position		      [20, 138, 50, 152]
+	      ZOrder		      225
+	      Port		      "2"
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      Sum
+	      Name		      "Add"
+	      SID		      "536"
+	      Ports		      [2, 1]
+	      Position		      [690, 137, 720, 168]
+	      ZOrder		      220
+	      InputSameDT	      off
+	      OutDataTypeStr	      "Inherit: Inherit via internal rule"
+	      SaturateOnIntegerOverflow	off
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Bit Shift"
+	      SID		      "537"
+	      Ports		      [1, 1]
+	      Position		      [310, 114, 415, 176]
+	      ZOrder		      207
+	      LibraryVersion	      "1.195"
+	      SourceBlock	      "hdlsllib/HDL Operations/Bit Shift"
+	      SourceType	      "Bit Shift"
+	      ContentPreviewEnabled   off
+	      mode		      "Shift Left Logical"
+	      N			      "16"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Bitwise\nOperator"
+	      SID		      "538"
+	      Ports		      [1, 1]
+	      Position		      [365, 206, 405, 244]
+	      ZOrder		      221
+	      LibraryVersion	      "1.358"
+	      SourceBlock	      "simulink/Logic and Bit\nOperations/Bitwise\nOperator"
+	      SourceType	      "Bitwise Operator"
+	      logicop		      "AND"
+	      UseBitMask	      on
+	      NumInputPorts	      "1"
+	      BitMask		      "bin2dec('1111111111111111')"
+	      BitMaskRealWorld	      "Stored Integer"
+	    }
+	    Block {
+	      BlockType		      DataTypeConversion
+	      Name		      "Data Type Conversion"
+	      SID		      "539"
+	      Position		      [235, 208, 310, 242]
+	      ZOrder		      222
+	      OutDataTypeStr	      "uint32"
+	      RndMeth		      "Floor"
+	      SaturateOnIntegerOverflow	off
+	    }
+	    Block {
+	      BlockType		      DataTypeConversion
+	      Name		      "Data Type Conversion1"
+	      SID		      "540"
+	      Position		      [520, 118, 595, 152]
+	      ZOrder		      223
+	      OutDataTypeStr	      "uint32"
+	      RndMeth		      "Floor"
+	      SaturateOnIntegerOverflow	off
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Model Info"
+	      SID		      "541"
+	      Ports		      []
+	      Position		      [450, 309, 703, 448]
+	      ZOrder		      233
+	      ShowName		      off
+	      LibraryVersion	      "1.358"
+	      FontName		      "Arial"
+	      SourceBlock	      "simulink/Model-Wide\nUtilities/Model Info"
+	      SourceType	      "CMBlock"
+	      ContentPreviewEnabled   off
+	      Frame		      "on"
+	      DisplayStringWithTags   "%<Created>\n%<Creator>\n\nShift and round two double values into one double value.\n\n"
+	      "input:	two double values (treated as 16-bit)\noutput:	One uint32 value"
+	      MaskDisplayString	      "Thu Mar 10 10:40:44 2016\\nOscar\\n\\nShift and round two double values into one doubl"
+	      "e value.\\n\\ninput:	two double values (treated as 16-bit)\\noutput:	One uint32 value"
+	      HorizontalTextAlignment "Center"
+	      LeftAlignmentValue      "0.5"
+	      SourceBlockDiagram      "Encode_To_DC"
+	      TagMaxNumber	      "20"
+	    }
+	    Block {
+	      BlockType		      Rounding
+	      Name		      "Rounding\nFunction"
+	      SID		      "542"
+	      Position		      [230, 130, 260, 160]
+	      ZOrder		      213
+	      Operator		      "round"
+	    }
+	    Block {
+	      BlockType		      Rounding
+	      Name		      "Rounding\nFunction1"
+	      SID		      "543"
+	      Position		      [155, 210, 185, 240]
+	      ZOrder		      219
+	      Operator		      "round"
+	    }
+	    Block {
+	      BlockType		      Outport
+	      Name		      "Merged_uint32"
+	      SID		      "544"
+	      Position		      [780, 148, 810, 162]
+	      ZOrder		      226
+	      IconDisplay	      "Port number"
+	    }
+	    Line {
+	      ZOrder		      1
+	      SrcBlock		      "Bit Shift"
+	      SrcPort		      1
+	      Points		      [48, 0; 0, -10]
+	      DstBlock		      "Data Type Conversion1"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      2
+	      SrcBlock		      "Data Type Conversion1"
+	      SrcPort		      1
+	      Points		      [43, 0; 0, 10]
+	      DstBlock		      "Add"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      3
+	      SrcBlock		      "Rounding\nFunction"
+	      SrcPort		      1
+	      DstBlock		      "Bit Shift"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      4
+	      SrcBlock		      "Data Type Conversion"
+	      SrcPort		      1
+	      DstBlock		      "Bitwise\nOperator"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      5
+	      SrcBlock		      "Add"
+	      SrcPort		      1
+	      DstBlock		      "Merged_uint32"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      6
+	      SrcBlock		      "Bitwise\nOperator"
+	      SrcPort		      1
+	      Points		      [38, 0; 0, -65]
+	      DstBlock		      "Add"
+	      DstPort		      2
+	    }
+	    Line {
+	      ZOrder		      7
+	      SrcBlock		      "Rounding\nFunction1"
+	      SrcPort		      1
+	      DstBlock		      "Data Type Conversion"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      8
+	      SrcBlock		      "Value_High"
+	      SrcPort		      1
+	      DstBlock		      "Rounding\nFunction"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      9
+	      SrcBlock		      "Value_Low"
+	      SrcPort		      1
+	      DstBlock		      "Rounding\nFunction1"
+	      DstPort		      1
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "32:bit3"
+	  SID			  "457"
+	  Ports			  [2, 1]
+	  Position		  [825, 127, 955, 158]
+	  ZOrder		  236
+	  RequestExecContextInheritance	off
+	  Variant		  off
+	  System {
+	    Name		    "32:bit3"
+	    Location		    [53, 23, 1200, 900]
+	    Open		    off
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "usletter"
+	    PaperUnits		    "inches"
+	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "100"
+	    Block {
+	      BlockType		      Inport
+	      Name		      "Value_Low"
+	      SID		      "458"
+	      Position		      [20, 218, 50, 232]
+	      ZOrder		      224
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      Inport
+	      Name		      "Value_High"
+	      SID		      "459"
+	      Position		      [20, 138, 50, 152]
+	      ZOrder		      225
+	      Port		      "2"
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      Sum
+	      Name		      "Add"
+	      SID		      "460"
+	      Ports		      [2, 1]
+	      Position		      [690, 137, 720, 168]
+	      ZOrder		      220
+	      InputSameDT	      off
+	      OutDataTypeStr	      "Inherit: Inherit via internal rule"
+	      SaturateOnIntegerOverflow	off
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Bit Shift"
+	      SID		      "461"
+	      Ports		      [1, 1]
+	      Position		      [310, 114, 415, 176]
+	      ZOrder		      207
+	      LibraryVersion	      "1.195"
+	      SourceBlock	      "hdlsllib/HDL Operations/Bit Shift"
+	      SourceType	      "Bit Shift"
+	      ContentPreviewEnabled   off
+	      mode		      "Shift Left Logical"
+	      N			      "16"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Bitwise\nOperator"
+	      SID		      "462"
+	      Ports		      [1, 1]
+	      Position		      [365, 206, 405, 244]
+	      ZOrder		      221
+	      LibraryVersion	      "1.358"
+	      SourceBlock	      "simulink/Logic and Bit\nOperations/Bitwise\nOperator"
+	      SourceType	      "Bitwise Operator"
+	      logicop		      "AND"
+	      UseBitMask	      on
+	      NumInputPorts	      "1"
+	      BitMask		      "bin2dec('1111111111111111')"
+	      BitMaskRealWorld	      "Stored Integer"
+	    }
+	    Block {
+	      BlockType		      DataTypeConversion
+	      Name		      "Data Type Conversion"
+	      SID		      "463"
+	      Position		      [235, 208, 310, 242]
+	      ZOrder		      222
+	      OutDataTypeStr	      "uint32"
+	      RndMeth		      "Floor"
+	      SaturateOnIntegerOverflow	off
+	    }
+	    Block {
+	      BlockType		      DataTypeConversion
+	      Name		      "Data Type Conversion1"
+	      SID		      "464"
+	      Position		      [520, 118, 595, 152]
+	      ZOrder		      223
+	      OutDataTypeStr	      "uint32"
+	      RndMeth		      "Floor"
+	      SaturateOnIntegerOverflow	off
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Model Info"
+	      SID		      "465"
+	      Ports		      []
+	      Position		      [450, 309, 703, 448]
+	      ZOrder		      233
+	      ShowName		      off
+	      LibraryVersion	      "1.358"
+	      FontName		      "Arial"
+	      SourceBlock	      "simulink/Model-Wide\nUtilities/Model Info"
+	      SourceType	      "CMBlock"
+	      ContentPreviewEnabled   off
+	      Frame		      "on"
+	      DisplayStringWithTags   "%<Created>\n%<Creator>\n\nShift and round two double values into one double value.\n\n"
+	      "input:	two double values (treated as 16-bit)\noutput:	One uint32 value"
+	      MaskDisplayString	      "Thu Mar 10 10:40:44 2016\\nOscar\\n\\nShift and round two double values into one doubl"
+	      "e value.\\n\\ninput:	two double values (treated as 16-bit)\\noutput:	One uint32 value"
+	      HorizontalTextAlignment "Center"
+	      LeftAlignmentValue      "0.5"
+	      SourceBlockDiagram      "Encode_To_DC"
+	      TagMaxNumber	      "20"
+	    }
+	    Block {
+	      BlockType		      Rounding
+	      Name		      "Rounding\nFunction"
+	      SID		      "466"
+	      Position		      [230, 130, 260, 160]
+	      ZOrder		      213
+	      Operator		      "round"
+	    }
+	    Block {
+	      BlockType		      Rounding
+	      Name		      "Rounding\nFunction1"
+	      SID		      "467"
+	      Position		      [155, 210, 185, 240]
+	      ZOrder		      219
+	      Operator		      "round"
+	    }
+	    Block {
+	      BlockType		      Outport
+	      Name		      "Merged_uint32"
+	      SID		      "468"
+	      Position		      [780, 148, 810, 162]
+	      ZOrder		      226
+	      IconDisplay	      "Port number"
+	    }
+	    Line {
+	      ZOrder		      1
+	      SrcBlock		      "Bit Shift"
+	      SrcPort		      1
+	      Points		      [48, 0; 0, -10]
+	      DstBlock		      "Data Type Conversion1"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      2
+	      SrcBlock		      "Data Type Conversion1"
+	      SrcPort		      1
+	      Points		      [43, 0; 0, 10]
+	      DstBlock		      "Add"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      3
+	      SrcBlock		      "Rounding\nFunction"
+	      SrcPort		      1
+	      DstBlock		      "Bit Shift"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      4
+	      SrcBlock		      "Data Type Conversion"
+	      SrcPort		      1
+	      DstBlock		      "Bitwise\nOperator"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      5
+	      SrcBlock		      "Add"
+	      SrcPort		      1
+	      DstBlock		      "Merged_uint32"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      6
+	      SrcBlock		      "Bitwise\nOperator"
+	      SrcPort		      1
+	      Points		      [38, 0; 0, -65]
+	      DstBlock		      "Add"
+	      DstPort		      2
+	    }
+	    Line {
+	      ZOrder		      7
+	      SrcBlock		      "Rounding\nFunction1"
+	      SrcPort		      1
+	      DstBlock		      "Data Type Conversion"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      8
+	      SrcBlock		      "Value_High"
+	      SrcPort		      1
+	      DstBlock		      "Rounding\nFunction"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      9
+	      SrcBlock		      "Value_Low"
+	      SrcPort		      1
+	      DstBlock		      "Rounding\nFunction1"
+	      DstPort		      1
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "32:bit:2"
+	  SID			  "445"
+	  Ports			  [2, 1]
+	  Position		  [825, 62, 955, 93]
+	  ZOrder		  235
+	  RequestExecContextInheritance	off
+	  Variant		  off
+	  System {
+	    Name		    "32:bit:2"
+	    Location		    [53, 23, 1200, 900]
+	    Open		    off
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "usletter"
+	    PaperUnits		    "inches"
+	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "100"
+	    Block {
+	      BlockType		      Inport
+	      Name		      "Value_Low"
+	      SID		      "446"
+	      Position		      [20, 218, 50, 232]
+	      ZOrder		      224
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      Inport
+	      Name		      "Value_High"
+	      SID		      "447"
+	      Position		      [20, 138, 50, 152]
+	      ZOrder		      225
+	      Port		      "2"
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      Sum
+	      Name		      "Add"
+	      SID		      "448"
+	      Ports		      [2, 1]
+	      Position		      [690, 137, 720, 168]
+	      ZOrder		      220
+	      InputSameDT	      off
+	      OutDataTypeStr	      "Inherit: Inherit via internal rule"
+	      SaturateOnIntegerOverflow	off
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Bit Shift"
+	      SID		      "449"
+	      Ports		      [1, 1]
+	      Position		      [310, 114, 415, 176]
+	      ZOrder		      207
+	      LibraryVersion	      "1.195"
+	      SourceBlock	      "hdlsllib/HDL Operations/Bit Shift"
+	      SourceType	      "Bit Shift"
+	      ContentPreviewEnabled   off
+	      mode		      "Shift Left Logical"
+	      N			      "16"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Bitwise\nOperator"
+	      SID		      "450"
+	      Ports		      [1, 1]
+	      Position		      [365, 206, 405, 244]
+	      ZOrder		      221
+	      LibraryVersion	      "1.358"
+	      SourceBlock	      "simulink/Logic and Bit\nOperations/Bitwise\nOperator"
+	      SourceType	      "Bitwise Operator"
+	      logicop		      "AND"
+	      UseBitMask	      on
+	      NumInputPorts	      "1"
+	      BitMask		      "bin2dec('1111111111111111')"
+	      BitMaskRealWorld	      "Stored Integer"
+	    }
+	    Block {
+	      BlockType		      DataTypeConversion
+	      Name		      "Data Type Conversion"
+	      SID		      "451"
+	      Position		      [235, 208, 310, 242]
+	      ZOrder		      222
+	      OutDataTypeStr	      "uint32"
+	      RndMeth		      "Floor"
+	      SaturateOnIntegerOverflow	off
+	    }
+	    Block {
+	      BlockType		      DataTypeConversion
+	      Name		      "Data Type Conversion1"
+	      SID		      "452"
+	      Position		      [520, 118, 595, 152]
+	      ZOrder		      223
+	      OutDataTypeStr	      "uint32"
+	      RndMeth		      "Floor"
+	      SaturateOnIntegerOverflow	off
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Model Info"
+	      SID		      "453"
+	      Ports		      []
+	      Position		      [450, 309, 703, 448]
+	      ZOrder		      233
+	      ShowName		      off
+	      LibraryVersion	      "1.358"
+	      FontName		      "Arial"
+	      SourceBlock	      "simulink/Model-Wide\nUtilities/Model Info"
+	      SourceType	      "CMBlock"
+	      ContentPreviewEnabled   off
+	      Frame		      "on"
+	      DisplayStringWithTags   "%<Created>\n%<Creator>\n\nShift and round two double values into one double value.\n\n"
+	      "input:	two double values (treated as 16-bit)\noutput:	One uint32 value"
+	      MaskDisplayString	      "Thu Mar 10 10:40:44 2016\\nOscar\\n\\nShift and round two double values into one doubl"
+	      "e value.\\n\\ninput:	two double values (treated as 16-bit)\\noutput:	One uint32 value"
+	      HorizontalTextAlignment "Center"
+	      LeftAlignmentValue      "0.5"
+	      SourceBlockDiagram      "Encode_To_DC"
+	      TagMaxNumber	      "20"
+	    }
+	    Block {
+	      BlockType		      Rounding
+	      Name		      "Rounding\nFunction"
+	      SID		      "454"
+	      Position		      [230, 130, 260, 160]
+	      ZOrder		      213
+	      Operator		      "round"
+	    }
+	    Block {
+	      BlockType		      Rounding
+	      Name		      "Rounding\nFunction1"
+	      SID		      "455"
+	      Position		      [155, 210, 185, 240]
+	      ZOrder		      219
+	      Operator		      "round"
+	    }
+	    Block {
+	      BlockType		      Outport
+	      Name		      "Merged_uint32"
+	      SID		      "456"
+	      Position		      [780, 148, 810, 162]
+	      ZOrder		      226
+	      IconDisplay	      "Port number"
+	    }
+	    Line {
+	      ZOrder		      1
+	      SrcBlock		      "Bit Shift"
+	      SrcPort		      1
+	      Points		      [48, 0; 0, -10]
+	      DstBlock		      "Data Type Conversion1"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      2
+	      SrcBlock		      "Data Type Conversion1"
+	      SrcPort		      1
+	      Points		      [43, 0; 0, 10]
+	      DstBlock		      "Add"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      3
+	      SrcBlock		      "Rounding\nFunction"
+	      SrcPort		      1
+	      DstBlock		      "Bit Shift"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      4
+	      SrcBlock		      "Data Type Conversion"
+	      SrcPort		      1
+	      DstBlock		      "Bitwise\nOperator"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      5
+	      SrcBlock		      "Add"
+	      SrcPort		      1
+	      DstBlock		      "Merged_uint32"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      6
+	      SrcBlock		      "Bitwise\nOperator"
+	      SrcPort		      1
+	      Points		      [38, 0; 0, -65]
+	      DstBlock		      "Add"
+	      DstPort		      2
+	    }
+	    Line {
+	      ZOrder		      7
+	      SrcBlock		      "Rounding\nFunction1"
+	      SrcPort		      1
+	      DstBlock		      "Data Type Conversion"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      8
+	      SrcBlock		      "Value_High"
+	      SrcPort		      1
+	      DstBlock		      "Rounding\nFunction"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      9
+	      SrcBlock		      "Value_Low"
+	      SrcPort		      1
+	      DstBlock		      "Rounding\nFunction1"
+	      DstPort		      1
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "8-bit:1"
+	  SID			  "393"
+	  Ports			  [8, 1]
+	  Position		  [205, 389, 340, 516]
+	  ZOrder		  232
+	  RequestExecContextInheritance	off
+	  Variant		  off
+	  System {
+	    Name		    "8-bit:1"
+	    Location		    [53, 23, 1200, 900]
+	    Open		    off
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "usletter"
+	    PaperUnits		    "inches"
+	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "80"
+	    Block {
+	      BlockType		      Inport
+	      Name		      "bool0"
+	      SID		      "394"
+	      Position		      [40, 93, 70, 107]
+	      ZOrder		      224
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      Inport
+	      Name		      "bool1"
+	      SID		      "395"
+	      Position		      [40, 53, 70, 67]
+	      ZOrder		      225
+	      Port		      "2"
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      Inport
+	      Name		      "bool2"
+	      SID		      "396"
+	      Position		      [40, 3, 70, 17]
+	      ZOrder		      232
+	      Port		      "3"
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      Inport
+	      Name		      "bool3"
+	      SID		      "397"
+	      Position		      [40, -47, 70, -33]
+	      ZOrder		      233
+	      Port		      "4"
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      Inport
+	      Name		      "bool4"
+	      SID		      "398"
+	      Position		      [40, -97, 70, -83]
+	      ZOrder		      234
+	      Port		      "5"
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      Inport
+	      Name		      "bool5"
+	      SID		      "399"
+	      Position		      [40, -142, 70, -128]
+	      ZOrder		      235
+	      Port		      "6"
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      Inport
+	      Name		      "bool6"
+	      SID		      "400"
+	      Position		      [40, -192, 70, -178]
+	      ZOrder		      236
+	      Port		      "7"
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      Inport
+	      Name		      "bool7"
+	      SID		      "401"
+	      Position		      [40, -242, 70, -228]
+	      ZOrder		      237
+	      Port		      "8"
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      Sum
+	      Name		      "Add1"
+	      SID		      "402"
+	      Ports		      [8, 1]
+	      Position		      [455, -173, 530, 48]
+	      ZOrder		      244
+	      Inputs		      "++++++++"
+	      InputSameDT	      off
+	      OutDataTypeStr	      "double"
+	      SaturateOnIntegerOverflow	off
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Bit Shift1"
+	      SID		      "403"
+	      Ports		      [1, 1]
+	      Position		      [290, -204, 380, -166]
+	      ZOrder		      245
+	      LibraryVersion	      "1.195"
+	      SourceBlock	      "hdlsllib/HDL Operations/Bit Shift"
+	      SourceType	      "Bit Shift"
+	      ContentPreviewEnabled   off
+	      mode		      "Shift Left Logical"
+	      N			      "6"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Bit Shift2"
+	      SID		      "404"
+	      Ports		      [1, 1]
+	      Position		      [290, -254, 380, -216]
+	      ZOrder		      243
+	      LibraryVersion	      "1.195"
+	      SourceBlock	      "hdlsllib/HDL Operations/Bit Shift"
+	      SourceType	      "Bit Shift"
+	      ContentPreviewEnabled   off
+	      mode		      "Shift Left Logical"
+	      N			      "7"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Bit Shift3"
+	      SID		      "405"
+	      Ports		      [1, 1]
+	      Position		      [290, -154, 380, -116]
+	      ZOrder		      246
+	      LibraryVersion	      "1.195"
+	      SourceBlock	      "hdlsllib/HDL Operations/Bit Shift"
+	      SourceType	      "Bit Shift"
+	      ContentPreviewEnabled   off
+	      mode		      "Shift Left Logical"
+	      N			      "5"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Bit Shift4"
+	      SID		      "406"
+	      Ports		      [1, 1]
+	      Position		      [290, -109, 380, -71]
+	      ZOrder		      247
+	      LibraryVersion	      "1.195"
+	      SourceBlock	      "hdlsllib/HDL Operations/Bit Shift"
+	      SourceType	      "Bit Shift"
+	      ContentPreviewEnabled   off
+	      mode		      "Shift Left Logical"
+	      N			      "4"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Bit Shift5"
+	      SID		      "407"
+	      Ports		      [1, 1]
+	      Position		      [290, -9, 380, 29]
+	      ZOrder		      249
+	      LibraryVersion	      "1.195"
+	      SourceBlock	      "hdlsllib/HDL Operations/Bit Shift"
+	      SourceType	      "Bit Shift"
+	      ContentPreviewEnabled   off
+	      mode		      "Shift Left Logical"
+	      N			      "2"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Bit Shift6"
+	      SID		      "408"
+	      Ports		      [1, 1]
+	      Position		      [290, -59, 380, -21]
+	      ZOrder		      248
+	      LibraryVersion	      "1.195"
+	      SourceBlock	      "hdlsllib/HDL Operations/Bit Shift"
+	      SourceType	      "Bit Shift"
+	      ContentPreviewEnabled   off
+	      mode		      "Shift Left Logical"
+	      N			      "3"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Bit Shift7"
+	      SID		      "409"
+	      Ports		      [1, 1]
+	      Position		      [290, 41, 380, 79]
+	      ZOrder		      250
+	      LibraryVersion	      "1.195"
+	      SourceBlock	      "hdlsllib/HDL Operations/Bit Shift"
+	      SourceType	      "Bit Shift"
+	      ContentPreviewEnabled   off
+	      mode		      "Shift Left Logical"
+	      N			      "1"
+	    }
+	    Block {
+	      BlockType		      DataTypeConversion
+	      Name		      "Data Type Conversion2"
+	      SID		      "410"
+	      Position		      [155, -252, 230, -218]
+	      ZOrder		      242
+	      OutDataTypeStr	      "double"
+	      RndMeth		      "Floor"
+	      SaturateOnIntegerOverflow	off
+	    }
+	    Block {
+	      BlockType		      DataTypeConversion
+	      Name		      "Data Type Conversion3"
+	      SID		      "411"
+	      Position		      [155, 83, 230, 117]
+	      ZOrder		      252
+	      OutDataTypeStr	      "double"
+	      RndMeth		      "Floor"
+	      SaturateOnIntegerOverflow	off
+	    }
+	    Block {
+	      BlockType		      DataTypeConversion
+	      Name		      "Data Type Conversion4"
+	      SID		      "412"
+	      Position		      [155, 43, 230, 77]
+	      ZOrder		      253
+	      OutDataTypeStr	      "double"
+	      RndMeth		      "Floor"
+	      SaturateOnIntegerOverflow	off
+	    }
+	    Block {
+	      BlockType		      DataTypeConversion
+	      Name		      "Data Type Conversion5"
+	      SID		      "413"
+	      Position		      [155, -7, 230, 27]
+	      ZOrder		      254
+	      OutDataTypeStr	      "double"
+	      RndMeth		      "Floor"
+	      SaturateOnIntegerOverflow	off
+	    }
+	    Block {
+	      BlockType		      DataTypeConversion
+	      Name		      "Data Type Conversion6"
+	      SID		      "414"
+	      Position		      [155, -57, 230, -23]
+	      ZOrder		      255
+	      OutDataTypeStr	      "double"
+	      RndMeth		      "Floor"
+	      SaturateOnIntegerOverflow	off
+	    }
+	    Block {
+	      BlockType		      DataTypeConversion
+	      Name		      "Data Type Conversion7"
+	      SID		      "415"
+	      Position		      [155, -107, 230, -73]
+	      ZOrder		      256
+	      OutDataTypeStr	      "double"
+	      RndMeth		      "Floor"
+	      SaturateOnIntegerOverflow	off
+	    }
+	    Block {
+	      BlockType		      DataTypeConversion
+	      Name		      "Data Type Conversion8"
+	      SID		      "416"
+	      Position		      [155, -152, 230, -118]
+	      ZOrder		      257
+	      OutDataTypeStr	      "double"
+	      RndMeth		      "Floor"
+	      SaturateOnIntegerOverflow	off
+	    }
+	    Block {
+	      BlockType		      DataTypeConversion
+	      Name		      "Data Type Conversion9"
+	      SID		      "417"
+	      Position		      [155, -202, 230, -168]
+	      ZOrder		      258
+	      OutDataTypeStr	      "double"
+	      RndMeth		      "Floor"
+	      SaturateOnIntegerOverflow	off
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Model Info"
+	      SID		      "418"
+	      Ports		      []
+	      Position		      [235, 184, 488, 323]
+	      ZOrder		      231
+	      ShowName		      off
+	      LibraryVersion	      "1.358"
+	      FontName		      "Arial"
+	      SourceBlock	      "simulink/Model-Wide\nUtilities/Model Info"
+	      SourceType	      "CMBlock"
+	      ContentPreviewEnabled   off
+	      Frame		      "on"
+	      DisplayStringWithTags   "%<Created>\n%<Creator>\n\nShift and round eight double values into one double value.\n"
+	      "\ninput:	Eight boolean values\noutput:	One double value(treated as 8-bit)"
+	      MaskDisplayString	      "Thu Mar 10 10:40:44 2016\\nOscar\\n\\nShift and round eight double values into one dou"
+	      "ble value.\\n\\ninput:	Eight boolean values\\noutput:	One double value(treated as 8-bit)"
+	      HorizontalTextAlignment "Center"
+	      LeftAlignmentValue      "0.5"
+	      SourceBlockDiagram      "Encode_To_DC"
+	      TagMaxNumber	      "20"
+	    }
+	    Block {
+	      BlockType		      Outport
+	      Name		      "Merged_doble"
+	      SID		      "419"
+	      Position		      [585, -67, 615, -53]
+	      ZOrder		      259
+	      IconDisplay	      "Port number"
+	    }
+	    Line {
+	      ZOrder		      1
+	      SrcBlock		      "bool7"
+	      SrcPort		      1
+	      DstBlock		      "Data Type Conversion2"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      2
+	      SrcBlock		      "Data Type Conversion2"
+	      SrcPort		      1
+	      DstBlock		      "Bit Shift2"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      3
+	      SrcBlock		      "Bit Shift2"
+	      SrcPort		      1
+	      Points		      [8, 0; 0, 38; 31, 0; 0, 47]
+	      DstBlock		      "Add1"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      4
+	      SrcBlock		      "Bit Shift1"
+	      SrcPort		      1
+	      Points		      [24, 0; 0, 60]
+	      DstBlock		      "Add1"
+	      DstPort		      2
+	    }
+	    Line {
+	      ZOrder		      5
+	      SrcBlock		      "Bit Shift3"
+	      SrcPort		      1
+	      Points		      [20, 0; 0, 35]
+	      DstBlock		      "Add1"
+	      DstPort		      3
+	    }
+	    Line {
+	      ZOrder		      6
+	      SrcBlock		      "Bit Shift4"
+	      SrcPort		      1
+	      Points		      [34, 0; 0, 15]
+	      DstBlock		      "Add1"
+	      DstPort		      4
+	    }
+	    Line {
+	      ZOrder		      7
+	      SrcBlock		      "Bit Shift6"
+	      SrcPort		      1
+	      Points		      [55, 0]
+	      DstBlock		      "Add1"
+	      DstPort		      5
+	    }
+	    Line {
+	      ZOrder		      8
+	      SrcBlock		      "Bit Shift5"
+	      SrcPort		      1
+	      Points		      [36, 0; 0, -35]
+	      DstBlock		      "Add1"
+	      DstPort		      6
+	    }
+	    Line {
+	      ZOrder		      9
+	      SrcBlock		      "Bit Shift7"
+	      SrcPort		      1
+	      Points		      [47, 0; 0, -60]
+	      DstBlock		      "Add1"
+	      DstPort		      7
+	    }
+	    Line {
+	      ZOrder		      10
+	      SrcBlock		      "Data Type Conversion3"
+	      SrcPort		      1
+	      Points		      [205, 0]
+	      DstBlock		      "Add1"
+	      DstPort		      8
+	    }
+	    Line {
+	      ZOrder		      11
+	      SrcBlock		      "bool0"
+	      SrcPort		      1
+	      DstBlock		      "Data Type Conversion3"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      12
+	      SrcBlock		      "Data Type Conversion4"
+	      SrcPort		      1
+	      DstBlock		      "Bit Shift7"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      13
+	      SrcBlock		      "Data Type Conversion9"
+	      SrcPort		      1
+	      DstBlock		      "Bit Shift1"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      14
+	      SrcBlock		      "Data Type Conversion8"
+	      SrcPort		      1
+	      DstBlock		      "Bit Shift3"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      15
+	      SrcBlock		      "Data Type Conversion7"
+	      SrcPort		      1
+	      DstBlock		      "Bit Shift4"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      16
+	      SrcBlock		      "Data Type Conversion6"
+	      SrcPort		      1
+	      DstBlock		      "Bit Shift6"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      17
+	      SrcBlock		      "Data Type Conversion5"
+	      SrcPort		      1
+	      DstBlock		      "Bit Shift5"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      18
+	      SrcBlock		      "bool1"
+	      SrcPort		      1
+	      DstBlock		      "Data Type Conversion4"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      19
+	      SrcBlock		      "bool2"
+	      SrcPort		      1
+	      DstBlock		      "Data Type Conversion5"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      20
+	      SrcBlock		      "bool3"
+	      SrcPort		      1
+	      DstBlock		      "Data Type Conversion6"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      21
+	      SrcBlock		      "bool4"
+	      SrcPort		      1
+	      DstBlock		      "Data Type Conversion7"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      22
+	      SrcBlock		      "bool5"
+	      SrcPort		      1
+	      DstBlock		      "Data Type Conversion8"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      23
+	      SrcBlock		      "bool6"
+	      SrcPort		      1
+	      DstBlock		      "Data Type Conversion9"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      24
+	      SrcBlock		      "Add1"
+	      SrcPort		      1
+	      DstBlock		      "Merged_doble"
+	      DstPort		      1
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "8-bit:2"
+	  SID			  "506"
+	  Ports			  [8, 1]
+	  Position		  [320, 819, 455, 946]
+	  ZOrder		  240
+	  RequestExecContextInheritance	off
+	  Variant		  off
+	  System {
+	    Name		    "8-bit:2"
+	    Location		    [53, 23, 1200, 900]
+	    Open		    off
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "usletter"
+	    PaperUnits		    "inches"
+	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "80"
+	    Block {
+	      BlockType		      Inport
+	      Name		      "bool0"
+	      SID		      "507"
+	      Position		      [40, 93, 70, 107]
+	      ZOrder		      224
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      Inport
+	      Name		      "bool1"
+	      SID		      "508"
+	      Position		      [40, 53, 70, 67]
+	      ZOrder		      225
+	      Port		      "2"
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      Inport
+	      Name		      "bool2"
+	      SID		      "509"
+	      Position		      [40, 3, 70, 17]
+	      ZOrder		      232
+	      Port		      "3"
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      Inport
+	      Name		      "bool3"
+	      SID		      "510"
+	      Position		      [40, -47, 70, -33]
+	      ZOrder		      233
+	      Port		      "4"
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      Inport
+	      Name		      "bool4"
+	      SID		      "511"
+	      Position		      [40, -97, 70, -83]
+	      ZOrder		      234
+	      Port		      "5"
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      Inport
+	      Name		      "bool5"
+	      SID		      "512"
+	      Position		      [40, -142, 70, -128]
+	      ZOrder		      235
+	      Port		      "6"
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      Inport
+	      Name		      "bool6"
+	      SID		      "513"
+	      Position		      [40, -192, 70, -178]
+	      ZOrder		      236
+	      Port		      "7"
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      Inport
+	      Name		      "bool7"
+	      SID		      "514"
+	      Position		      [40, -242, 70, -228]
+	      ZOrder		      237
+	      Port		      "8"
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      Sum
+	      Name		      "Add1"
+	      SID		      "515"
+	      Ports		      [8, 1]
+	      Position		      [455, -173, 530, 48]
+	      ZOrder		      244
+	      Inputs		      "++++++++"
+	      InputSameDT	      off
+	      OutDataTypeStr	      "double"
+	      SaturateOnIntegerOverflow	off
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Bit Shift1"
+	      SID		      "516"
+	      Ports		      [1, 1]
+	      Position		      [290, -204, 380, -166]
+	      ZOrder		      245
+	      LibraryVersion	      "1.195"
+	      SourceBlock	      "hdlsllib/HDL Operations/Bit Shift"
+	      SourceType	      "Bit Shift"
+	      ContentPreviewEnabled   off
+	      mode		      "Shift Left Logical"
+	      N			      "6"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Bit Shift2"
+	      SID		      "517"
+	      Ports		      [1, 1]
+	      Position		      [290, -254, 380, -216]
+	      ZOrder		      243
+	      LibraryVersion	      "1.195"
+	      SourceBlock	      "hdlsllib/HDL Operations/Bit Shift"
+	      SourceType	      "Bit Shift"
+	      ContentPreviewEnabled   off
+	      mode		      "Shift Left Logical"
+	      N			      "7"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Bit Shift3"
+	      SID		      "518"
+	      Ports		      [1, 1]
+	      Position		      [290, -154, 380, -116]
+	      ZOrder		      246
+	      LibraryVersion	      "1.195"
+	      SourceBlock	      "hdlsllib/HDL Operations/Bit Shift"
+	      SourceType	      "Bit Shift"
+	      ContentPreviewEnabled   off
+	      mode		      "Shift Left Logical"
+	      N			      "5"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Bit Shift4"
+	      SID		      "519"
+	      Ports		      [1, 1]
+	      Position		      [290, -109, 380, -71]
+	      ZOrder		      247
+	      LibraryVersion	      "1.195"
+	      SourceBlock	      "hdlsllib/HDL Operations/Bit Shift"
+	      SourceType	      "Bit Shift"
+	      ContentPreviewEnabled   off
+	      mode		      "Shift Left Logical"
+	      N			      "4"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Bit Shift5"
+	      SID		      "520"
+	      Ports		      [1, 1]
+	      Position		      [290, -9, 380, 29]
+	      ZOrder		      249
+	      LibraryVersion	      "1.195"
+	      SourceBlock	      "hdlsllib/HDL Operations/Bit Shift"
+	      SourceType	      "Bit Shift"
+	      ContentPreviewEnabled   off
+	      mode		      "Shift Left Logical"
+	      N			      "2"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Bit Shift6"
+	      SID		      "521"
+	      Ports		      [1, 1]
+	      Position		      [290, -59, 380, -21]
+	      ZOrder		      248
+	      LibraryVersion	      "1.195"
+	      SourceBlock	      "hdlsllib/HDL Operations/Bit Shift"
+	      SourceType	      "Bit Shift"
+	      ContentPreviewEnabled   off
+	      mode		      "Shift Left Logical"
+	      N			      "3"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Bit Shift7"
+	      SID		      "522"
+	      Ports		      [1, 1]
+	      Position		      [290, 41, 380, 79]
+	      ZOrder		      250
+	      LibraryVersion	      "1.195"
+	      SourceBlock	      "hdlsllib/HDL Operations/Bit Shift"
+	      SourceType	      "Bit Shift"
+	      ContentPreviewEnabled   off
+	      mode		      "Shift Left Logical"
+	      N			      "1"
+	    }
+	    Block {
+	      BlockType		      DataTypeConversion
+	      Name		      "Data Type Conversion2"
+	      SID		      "523"
+	      Position		      [155, -252, 230, -218]
+	      ZOrder		      242
+	      OutDataTypeStr	      "double"
+	      RndMeth		      "Floor"
+	      SaturateOnIntegerOverflow	off
+	    }
+	    Block {
+	      BlockType		      DataTypeConversion
+	      Name		      "Data Type Conversion3"
+	      SID		      "524"
+	      Position		      [155, 83, 230, 117]
+	      ZOrder		      252
+	      OutDataTypeStr	      "double"
+	      RndMeth		      "Floor"
+	      SaturateOnIntegerOverflow	off
+	    }
+	    Block {
+	      BlockType		      DataTypeConversion
+	      Name		      "Data Type Conversion4"
+	      SID		      "525"
+	      Position		      [155, 43, 230, 77]
+	      ZOrder		      253
+	      OutDataTypeStr	      "double"
+	      RndMeth		      "Floor"
+	      SaturateOnIntegerOverflow	off
+	    }
+	    Block {
+	      BlockType		      DataTypeConversion
+	      Name		      "Data Type Conversion5"
+	      SID		      "526"
+	      Position		      [155, -7, 230, 27]
+	      ZOrder		      254
+	      OutDataTypeStr	      "double"
+	      RndMeth		      "Floor"
+	      SaturateOnIntegerOverflow	off
+	    }
+	    Block {
+	      BlockType		      DataTypeConversion
+	      Name		      "Data Type Conversion6"
+	      SID		      "527"
+	      Position		      [155, -57, 230, -23]
+	      ZOrder		      255
+	      OutDataTypeStr	      "double"
+	      RndMeth		      "Floor"
+	      SaturateOnIntegerOverflow	off
+	    }
+	    Block {
+	      BlockType		      DataTypeConversion
+	      Name		      "Data Type Conversion7"
+	      SID		      "528"
+	      Position		      [155, -107, 230, -73]
+	      ZOrder		      256
+	      OutDataTypeStr	      "double"
+	      RndMeth		      "Floor"
+	      SaturateOnIntegerOverflow	off
+	    }
+	    Block {
+	      BlockType		      DataTypeConversion
+	      Name		      "Data Type Conversion8"
+	      SID		      "529"
+	      Position		      [155, -152, 230, -118]
+	      ZOrder		      257
+	      OutDataTypeStr	      "double"
+	      RndMeth		      "Floor"
+	      SaturateOnIntegerOverflow	off
+	    }
+	    Block {
+	      BlockType		      DataTypeConversion
+	      Name		      "Data Type Conversion9"
+	      SID		      "530"
+	      Position		      [155, -202, 230, -168]
+	      ZOrder		      258
+	      OutDataTypeStr	      "double"
+	      RndMeth		      "Floor"
+	      SaturateOnIntegerOverflow	off
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Model Info"
+	      SID		      "531"
+	      Ports		      []
+	      Position		      [235, 184, 488, 323]
+	      ZOrder		      231
+	      ShowName		      off
+	      LibraryVersion	      "1.358"
+	      FontName		      "Arial"
+	      SourceBlock	      "simulink/Model-Wide\nUtilities/Model Info"
+	      SourceType	      "CMBlock"
+	      ContentPreviewEnabled   off
+	      Frame		      "on"
+	      DisplayStringWithTags   "%<Created>\n%<Creator>\n\nShift and round eight double values into one double value.\n"
+	      "\ninput:	Eight boolean values\noutput:	One double value(treated as 8-bit)"
+	      MaskDisplayString	      "Thu Mar 10 10:40:44 2016\\nOscar\\n\\nShift and round eight double values into one dou"
+	      "ble value.\\n\\ninput:	Eight boolean values\\noutput:	One double value(treated as 8-bit)"
+	      HorizontalTextAlignment "Center"
+	      LeftAlignmentValue      "0.5"
+	      SourceBlockDiagram      "Encode_To_DC"
+	      TagMaxNumber	      "20"
+	    }
+	    Block {
+	      BlockType		      Outport
+	      Name		      "Merged_doble"
+	      SID		      "532"
+	      Position		      [585, -67, 615, -53]
+	      ZOrder		      259
+	      IconDisplay	      "Port number"
+	    }
+	    Line {
+	      ZOrder		      1
+	      SrcBlock		      "bool7"
+	      SrcPort		      1
+	      DstBlock		      "Data Type Conversion2"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      2
+	      SrcBlock		      "Data Type Conversion2"
+	      SrcPort		      1
+	      DstBlock		      "Bit Shift2"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      3
+	      SrcBlock		      "Bit Shift2"
+	      SrcPort		      1
+	      Points		      [8, 0; 0, 38; 31, 0; 0, 47]
+	      DstBlock		      "Add1"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      4
+	      SrcBlock		      "Bit Shift1"
+	      SrcPort		      1
+	      Points		      [24, 0; 0, 60]
+	      DstBlock		      "Add1"
+	      DstPort		      2
+	    }
+	    Line {
+	      ZOrder		      5
+	      SrcBlock		      "Bit Shift3"
+	      SrcPort		      1
+	      Points		      [20, 0; 0, 35]
+	      DstBlock		      "Add1"
+	      DstPort		      3
+	    }
+	    Line {
+	      ZOrder		      6
+	      SrcBlock		      "Bit Shift4"
+	      SrcPort		      1
+	      Points		      [34, 0; 0, 15]
+	      DstBlock		      "Add1"
+	      DstPort		      4
+	    }
+	    Line {
+	      ZOrder		      7
+	      SrcBlock		      "Bit Shift6"
+	      SrcPort		      1
+	      Points		      [55, 0]
+	      DstBlock		      "Add1"
+	      DstPort		      5
+	    }
+	    Line {
+	      ZOrder		      8
+	      SrcBlock		      "Bit Shift5"
+	      SrcPort		      1
+	      Points		      [36, 0; 0, -35]
+	      DstBlock		      "Add1"
+	      DstPort		      6
+	    }
+	    Line {
+	      ZOrder		      9
+	      SrcBlock		      "Bit Shift7"
+	      SrcPort		      1
+	      Points		      [47, 0; 0, -60]
+	      DstBlock		      "Add1"
+	      DstPort		      7
+	    }
+	    Line {
+	      ZOrder		      10
+	      SrcBlock		      "Data Type Conversion3"
+	      SrcPort		      1
+	      Points		      [205, 0]
+	      DstBlock		      "Add1"
+	      DstPort		      8
+	    }
+	    Line {
+	      ZOrder		      11
+	      SrcBlock		      "bool0"
+	      SrcPort		      1
+	      DstBlock		      "Data Type Conversion3"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      12
+	      SrcBlock		      "Data Type Conversion4"
+	      SrcPort		      1
+	      DstBlock		      "Bit Shift7"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      13
+	      SrcBlock		      "Data Type Conversion9"
+	      SrcPort		      1
+	      DstBlock		      "Bit Shift1"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      14
+	      SrcBlock		      "Data Type Conversion8"
+	      SrcPort		      1
+	      DstBlock		      "Bit Shift3"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      15
+	      SrcBlock		      "Data Type Conversion7"
+	      SrcPort		      1
+	      DstBlock		      "Bit Shift4"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      16
+	      SrcBlock		      "Data Type Conversion6"
+	      SrcPort		      1
+	      DstBlock		      "Bit Shift6"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      17
+	      SrcBlock		      "Data Type Conversion5"
+	      SrcPort		      1
+	      DstBlock		      "Bit Shift5"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      18
+	      SrcBlock		      "bool1"
+	      SrcPort		      1
+	      DstBlock		      "Data Type Conversion4"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      19
+	      SrcBlock		      "bool2"
+	      SrcPort		      1
+	      DstBlock		      "Data Type Conversion5"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      20
+	      SrcBlock		      "bool3"
+	      SrcPort		      1
+	      DstBlock		      "Data Type Conversion6"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      21
+	      SrcBlock		      "bool4"
+	      SrcPort		      1
+	      DstBlock		      "Data Type Conversion7"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      22
+	      SrcBlock		      "bool5"
+	      SrcPort		      1
+	      DstBlock		      "Data Type Conversion8"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      23
+	      SrcBlock		      "bool6"
+	      SrcPort		      1
+	      DstBlock		      "Data Type Conversion9"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      24
+	      SrcBlock		      "Add1"
+	      SrcPort		      1
+	      DstBlock		      "Merged_doble"
+	      DstPort		      1
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "8-bit:3"
+	  SID			  "559"
+	  Ports			  [8, 1]
+	  Position		  [360, 1014, 495, 1141]
+	  ZOrder		  244
+	  RequestExecContextInheritance	off
+	  Variant		  off
+	  System {
+	    Name		    "8-bit:3"
+	    Location		    [53, 23, 1200, 900]
+	    Open		    off
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "usletter"
+	    PaperUnits		    "inches"
+	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "80"
+	    Block {
+	      BlockType		      Inport
+	      Name		      "bool0"
+	      SID		      "560"
+	      Position		      [40, 93, 70, 107]
+	      ZOrder		      224
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      Inport
+	      Name		      "bool1"
+	      SID		      "561"
+	      Position		      [40, 53, 70, 67]
+	      ZOrder		      225
+	      Port		      "2"
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      Inport
+	      Name		      "bool2"
+	      SID		      "562"
+	      Position		      [40, 3, 70, 17]
+	      ZOrder		      232
+	      Port		      "3"
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      Inport
+	      Name		      "bool3"
+	      SID		      "563"
+	      Position		      [40, -47, 70, -33]
+	      ZOrder		      233
+	      Port		      "4"
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      Inport
+	      Name		      "bool4"
+	      SID		      "564"
+	      Position		      [40, -97, 70, -83]
+	      ZOrder		      234
+	      Port		      "5"
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      Inport
+	      Name		      "bool5"
+	      SID		      "565"
+	      Position		      [40, -142, 70, -128]
+	      ZOrder		      235
+	      Port		      "6"
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      Inport
+	      Name		      "bool6"
+	      SID		      "566"
+	      Position		      [40, -192, 70, -178]
+	      ZOrder		      236
+	      Port		      "7"
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      Inport
+	      Name		      "bool7"
+	      SID		      "567"
+	      Position		      [40, -242, 70, -228]
+	      ZOrder		      237
+	      Port		      "8"
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      Sum
+	      Name		      "Add1"
+	      SID		      "568"
+	      Ports		      [8, 1]
+	      Position		      [455, -173, 530, 48]
+	      ZOrder		      244
+	      Inputs		      "++++++++"
+	      InputSameDT	      off
+	      OutDataTypeStr	      "double"
+	      SaturateOnIntegerOverflow	off
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Bit Shift1"
+	      SID		      "569"
+	      Ports		      [1, 1]
+	      Position		      [290, -204, 380, -166]
+	      ZOrder		      245
+	      LibraryVersion	      "1.195"
+	      SourceBlock	      "hdlsllib/HDL Operations/Bit Shift"
+	      SourceType	      "Bit Shift"
+	      ContentPreviewEnabled   off
+	      mode		      "Shift Left Logical"
+	      N			      "6"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Bit Shift2"
+	      SID		      "570"
+	      Ports		      [1, 1]
+	      Position		      [290, -254, 380, -216]
+	      ZOrder		      243
+	      LibraryVersion	      "1.195"
+	      SourceBlock	      "hdlsllib/HDL Operations/Bit Shift"
+	      SourceType	      "Bit Shift"
+	      ContentPreviewEnabled   off
+	      mode		      "Shift Left Logical"
+	      N			      "7"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Bit Shift3"
+	      SID		      "571"
+	      Ports		      [1, 1]
+	      Position		      [290, -154, 380, -116]
+	      ZOrder		      246
+	      LibraryVersion	      "1.195"
+	      SourceBlock	      "hdlsllib/HDL Operations/Bit Shift"
+	      SourceType	      "Bit Shift"
+	      ContentPreviewEnabled   off
+	      mode		      "Shift Left Logical"
+	      N			      "5"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Bit Shift4"
+	      SID		      "572"
+	      Ports		      [1, 1]
+	      Position		      [290, -109, 380, -71]
+	      ZOrder		      247
+	      LibraryVersion	      "1.195"
+	      SourceBlock	      "hdlsllib/HDL Operations/Bit Shift"
+	      SourceType	      "Bit Shift"
+	      ContentPreviewEnabled   off
+	      mode		      "Shift Left Logical"
+	      N			      "4"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Bit Shift5"
+	      SID		      "573"
+	      Ports		      [1, 1]
+	      Position		      [290, -9, 380, 29]
+	      ZOrder		      249
+	      LibraryVersion	      "1.195"
+	      SourceBlock	      "hdlsllib/HDL Operations/Bit Shift"
+	      SourceType	      "Bit Shift"
+	      ContentPreviewEnabled   off
+	      mode		      "Shift Left Logical"
+	      N			      "2"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Bit Shift6"
+	      SID		      "574"
+	      Ports		      [1, 1]
+	      Position		      [290, -59, 380, -21]
+	      ZOrder		      248
+	      LibraryVersion	      "1.195"
+	      SourceBlock	      "hdlsllib/HDL Operations/Bit Shift"
+	      SourceType	      "Bit Shift"
+	      ContentPreviewEnabled   off
+	      mode		      "Shift Left Logical"
+	      N			      "3"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Bit Shift7"
+	      SID		      "575"
+	      Ports		      [1, 1]
+	      Position		      [290, 41, 380, 79]
+	      ZOrder		      250
+	      LibraryVersion	      "1.195"
+	      SourceBlock	      "hdlsllib/HDL Operations/Bit Shift"
+	      SourceType	      "Bit Shift"
+	      ContentPreviewEnabled   off
+	      mode		      "Shift Left Logical"
+	      N			      "1"
+	    }
+	    Block {
+	      BlockType		      DataTypeConversion
+	      Name		      "Data Type Conversion2"
+	      SID		      "576"
+	      Position		      [155, -252, 230, -218]
+	      ZOrder		      242
+	      OutDataTypeStr	      "double"
+	      RndMeth		      "Floor"
+	      SaturateOnIntegerOverflow	off
+	    }
+	    Block {
+	      BlockType		      DataTypeConversion
+	      Name		      "Data Type Conversion3"
+	      SID		      "577"
+	      Position		      [155, 83, 230, 117]
+	      ZOrder		      252
+	      OutDataTypeStr	      "double"
+	      RndMeth		      "Floor"
+	      SaturateOnIntegerOverflow	off
+	    }
+	    Block {
+	      BlockType		      DataTypeConversion
+	      Name		      "Data Type Conversion4"
+	      SID		      "578"
+	      Position		      [155, 43, 230, 77]
+	      ZOrder		      253
+	      OutDataTypeStr	      "double"
+	      RndMeth		      "Floor"
+	      SaturateOnIntegerOverflow	off
+	    }
+	    Block {
+	      BlockType		      DataTypeConversion
+	      Name		      "Data Type Conversion5"
+	      SID		      "579"
+	      Position		      [155, -7, 230, 27]
+	      ZOrder		      254
+	      OutDataTypeStr	      "double"
+	      RndMeth		      "Floor"
+	      SaturateOnIntegerOverflow	off
+	    }
+	    Block {
+	      BlockType		      DataTypeConversion
+	      Name		      "Data Type Conversion6"
+	      SID		      "580"
+	      Position		      [155, -57, 230, -23]
+	      ZOrder		      255
+	      OutDataTypeStr	      "double"
+	      RndMeth		      "Floor"
+	      SaturateOnIntegerOverflow	off
+	    }
+	    Block {
+	      BlockType		      DataTypeConversion
+	      Name		      "Data Type Conversion7"
+	      SID		      "581"
+	      Position		      [155, -107, 230, -73]
+	      ZOrder		      256
+	      OutDataTypeStr	      "double"
+	      RndMeth		      "Floor"
+	      SaturateOnIntegerOverflow	off
+	    }
+	    Block {
+	      BlockType		      DataTypeConversion
+	      Name		      "Data Type Conversion8"
+	      SID		      "582"
+	      Position		      [155, -152, 230, -118]
+	      ZOrder		      257
+	      OutDataTypeStr	      "double"
+	      RndMeth		      "Floor"
+	      SaturateOnIntegerOverflow	off
+	    }
+	    Block {
+	      BlockType		      DataTypeConversion
+	      Name		      "Data Type Conversion9"
+	      SID		      "583"
+	      Position		      [155, -202, 230, -168]
+	      ZOrder		      258
+	      OutDataTypeStr	      "double"
+	      RndMeth		      "Floor"
+	      SaturateOnIntegerOverflow	off
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Model Info"
+	      SID		      "584"
+	      Ports		      []
+	      Position		      [235, 184, 488, 323]
+	      ZOrder		      231
+	      ShowName		      off
+	      LibraryVersion	      "1.358"
+	      FontName		      "Arial"
+	      SourceBlock	      "simulink/Model-Wide\nUtilities/Model Info"
+	      SourceType	      "CMBlock"
+	      ContentPreviewEnabled   off
+	      Frame		      "on"
+	      DisplayStringWithTags   "%<Created>\n%<Creator>\n\nShift and round eight double values into one double value.\n"
+	      "\ninput:	Eight boolean values\noutput:	One double value(treated as 8-bit)"
+	      MaskDisplayString	      "Thu Mar 10 10:40:44 2016\\nOscar\\n\\nShift and round eight double values into one dou"
+	      "ble value.\\n\\ninput:	Eight boolean values\\noutput:	One double value(treated as 8-bit)"
+	      HorizontalTextAlignment "Center"
+	      LeftAlignmentValue      "0.5"
+	      SourceBlockDiagram      "Encode_To_DC"
+	      TagMaxNumber	      "20"
+	    }
+	    Block {
+	      BlockType		      Outport
+	      Name		      "Merged_doble"
+	      SID		      "585"
+	      Position		      [585, -67, 615, -53]
+	      ZOrder		      259
+	      IconDisplay	      "Port number"
+	    }
+	    Line {
+	      ZOrder		      1
+	      SrcBlock		      "bool7"
+	      SrcPort		      1
+	      DstBlock		      "Data Type Conversion2"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      2
+	      SrcBlock		      "Data Type Conversion2"
+	      SrcPort		      1
+	      DstBlock		      "Bit Shift2"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      3
+	      SrcBlock		      "Bit Shift2"
+	      SrcPort		      1
+	      Points		      [8, 0; 0, 38; 31, 0; 0, 47]
+	      DstBlock		      "Add1"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      4
+	      SrcBlock		      "Bit Shift1"
+	      SrcPort		      1
+	      Points		      [24, 0; 0, 60]
+	      DstBlock		      "Add1"
+	      DstPort		      2
+	    }
+	    Line {
+	      ZOrder		      5
+	      SrcBlock		      "Bit Shift3"
+	      SrcPort		      1
+	      Points		      [20, 0; 0, 35]
+	      DstBlock		      "Add1"
+	      DstPort		      3
+	    }
+	    Line {
+	      ZOrder		      6
+	      SrcBlock		      "Bit Shift4"
+	      SrcPort		      1
+	      Points		      [34, 0; 0, 15]
+	      DstBlock		      "Add1"
+	      DstPort		      4
+	    }
+	    Line {
+	      ZOrder		      7
+	      SrcBlock		      "Bit Shift6"
+	      SrcPort		      1
+	      Points		      [55, 0]
+	      DstBlock		      "Add1"
+	      DstPort		      5
+	    }
+	    Line {
+	      ZOrder		      8
+	      SrcBlock		      "Bit Shift5"
+	      SrcPort		      1
+	      Points		      [36, 0; 0, -35]
+	      DstBlock		      "Add1"
+	      DstPort		      6
+	    }
+	    Line {
+	      ZOrder		      9
+	      SrcBlock		      "Bit Shift7"
+	      SrcPort		      1
+	      Points		      [47, 0; 0, -60]
+	      DstBlock		      "Add1"
+	      DstPort		      7
+	    }
+	    Line {
+	      ZOrder		      10
+	      SrcBlock		      "Data Type Conversion3"
+	      SrcPort		      1
+	      Points		      [205, 0]
+	      DstBlock		      "Add1"
+	      DstPort		      8
+	    }
+	    Line {
+	      ZOrder		      11
+	      SrcBlock		      "bool0"
+	      SrcPort		      1
+	      DstBlock		      "Data Type Conversion3"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      12
+	      SrcBlock		      "Data Type Conversion4"
+	      SrcPort		      1
+	      DstBlock		      "Bit Shift7"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      13
+	      SrcBlock		      "Data Type Conversion9"
+	      SrcPort		      1
+	      DstBlock		      "Bit Shift1"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      14
+	      SrcBlock		      "Data Type Conversion8"
+	      SrcPort		      1
+	      DstBlock		      "Bit Shift3"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      15
+	      SrcBlock		      "Data Type Conversion7"
+	      SrcPort		      1
+	      DstBlock		      "Bit Shift4"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      16
+	      SrcBlock		      "Data Type Conversion6"
+	      SrcPort		      1
+	      DstBlock		      "Bit Shift6"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      17
+	      SrcBlock		      "Data Type Conversion5"
+	      SrcPort		      1
+	      DstBlock		      "Bit Shift5"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      18
+	      SrcBlock		      "bool1"
+	      SrcPort		      1
+	      DstBlock		      "Data Type Conversion4"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      19
+	      SrcBlock		      "bool2"
+	      SrcPort		      1
+	      DstBlock		      "Data Type Conversion5"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      20
+	      SrcBlock		      "bool3"
+	      SrcPort		      1
+	      DstBlock		      "Data Type Conversion6"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      21
+	      SrcBlock		      "bool4"
+	      SrcPort		      1
+	      DstBlock		      "Data Type Conversion7"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      22
+	      SrcBlock		      "bool5"
+	      SrcPort		      1
+	      DstBlock		      "Data Type Conversion8"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      23
+	      SrcBlock		      "bool6"
+	      SrcPort		      1
+	      DstBlock		      "Data Type Conversion9"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      24
+	      SrcBlock		      "Add1"
+	      SrcPort		      1
+	      DstBlock		      "Merged_doble"
+	      DstPort		      1
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  DataTypeConversion
+	  Name			  "Data Type Conversion"
+	  SID			  "392"
+	  Position		  [705, 243, 780, 277]
+	  ZOrder		  227
+	  RndMeth		  "Floor"
+	  SaturateOnIntegerOverflow off
+	}
+	Block {
+	  BlockType		  DataTypeConversion
+	  Name			  "Data Type Conversion1"
+	  SID			  "545"
+	  Position		  [90, 790, 140, 810]
+	  ZOrder		  242
+	  OutDataTypeStr	  "boolean"
+	  RndMeth		  "Nearest"
+	  SaturateOnIntegerOverflow off
+	}
+	Block {
+	  BlockType		  DataTypeConversion
+	  Name			  "Data Type Conversion13"
+	  SID			  "117"
+	  Position		  [65, 420, 115, 440]
+	  ZOrder		  141
+	  OutDataTypeStr	  "boolean"
+	  RndMeth		  "Nearest"
+	  SaturateOnIntegerOverflow off
+	}
+	Block {
+	  BlockType		  DataTypeConversion
+	  Name			  "Data Type Conversion15"
+	  SID			  "119"
+	  Position		  [65, 570, 115, 590]
+	  ZOrder		  143
+	  OutDataTypeStr	  "boolean"
+	  RndMeth		  "Nearest"
+	  SaturateOnIntegerOverflow off
+	}
+	Block {
+	  BlockType		  DataTypeConversion
+	  Name			  "Data Type Conversion16"
+	  SID			  "120"
+	  Position		  [120, 605, 170, 625]
+	  ZOrder		  144
+	  OutDataTypeStr	  "boolean"
+	  RndMeth		  "Nearest"
+	  SaturateOnIntegerOverflow off
+	}
+	Block {
+	  BlockType		  DataTypeConversion
+	  Name			  "Data Type Conversion18"
+	  SID			  "139"
+	  Position		  [160, 820, 210, 840]
+	  ZOrder		  163
+	  OutDataTypeStr	  "boolean"
+	  RndMeth		  "Nearest"
+	  SaturateOnIntegerOverflow off
+	}
+	Block {
+	  BlockType		  DataTypeConversion
+	  Name			  "Data Type Conversion19"
+	  SID			  "140"
+	  Position		  [160, 850, 210, 870]
+	  ZOrder		  164
+	  OutDataTypeStr	  "boolean"
+	  RndMeth		  "Nearest"
+	  SaturateOnIntegerOverflow off
+	}
+	Block {
+	  BlockType		  DataTypeConversion
+	  Name			  "Data Type Conversion20"
+	  SID			  "141"
+	  Position		  [160, 880, 210, 900]
+	  ZOrder		  165
+	  OutDataTypeStr	  "boolean"
+	  RndMeth		  "Nearest"
+	  SaturateOnIntegerOverflow off
+	}
+	Block {
+	  BlockType		  DataTypeConversion
+	  Name			  "Data Type Conversion21"
+	  SID			  "142"
+	  Position		  [160, 910, 210, 930]
+	  ZOrder		  166
+	  OutDataTypeStr	  "boolean"
+	  RndMeth		  "Nearest"
+	  SaturateOnIntegerOverflow off
+	}
+	Block {
+	  BlockType		  DataTypeConversion
+	  Name			  "Data Type Conversion22"
+	  SID			  "143"
+	  Position		  [160, 940, 210, 960]
+	  ZOrder		  167
+	  OutDataTypeStr	  "boolean"
+	  RndMeth		  "Nearest"
+	  SaturateOnIntegerOverflow off
+	}
+	Block {
+	  BlockType		  DataTypeConversion
+	  Name			  "Data Type Conversion23"
+	  SID			  "144"
+	  Position		  [160, 970, 210, 990]
+	  ZOrder		  168
+	  OutDataTypeStr	  "boolean"
+	  RndMeth		  "Nearest"
+	  SaturateOnIntegerOverflow off
+	}
+	Block {
+	  BlockType		  DataTypeConversion
+	  Name			  "Data Type Conversion24"
+	  SID			  "145"
+	  Position		  [160, 1000, 210, 1020]
+	  ZOrder		  169
+	  OutDataTypeStr	  "boolean"
+	  RndMeth		  "Nearest"
+	  SaturateOnIntegerOverflow off
+	}
+	Block {
+	  BlockType		  DataTypeConversion
+	  Name			  "Data Type Conversion25"
+	  SID			  "146"
+	  Position		  [160, 1030, 210, 1050]
+	  ZOrder		  170
+	  OutDataTypeStr	  "boolean"
+	  RndMeth		  "Nearest"
+	  SaturateOnIntegerOverflow off
+	}
+	Block {
+	  BlockType		  DataTypeConversion
+	  Name			  "Data Type Conversion26"
+	  SID			  "147"
+	  Position		  [160, 1060, 210, 1080]
+	  ZOrder		  171
+	  OutDataTypeStr	  "boolean"
+	  RndMeth		  "Nearest"
+	  SaturateOnIntegerOverflow off
+	}
+	Block {
+	  BlockType		  DataTypeConversion
+	  Name			  "Data Type Conversion3"
+	  SID			  "98"
+	  Position		  [120, 650, 170, 670]
+	  ZOrder		  117
+	  OutDataTypeStr	  "boolean"
+	  RndMeth		  "Nearest"
+	  SaturateOnIntegerOverflow off
+	}
+	Block {
+	  BlockType		  DataTypeConversion
+	  Name			  "Data Type Conversion4"
+	  SID			  "78"
+	  Position		  [65, 510, 115, 530]
+	  ZOrder		  85
+	  OutDataTypeStr	  "boolean"
+	  RndMeth		  "Nearest"
+	  SaturateOnIntegerOverflow off
+	}
+	Block {
+	  BlockType		  DataTypeConversion
+	  Name			  "Data Type Conversion5"
+	  SID			  "79"
+	  Position		  [65, 540, 115, 560]
+	  ZOrder		  86
+	  OutDataTypeStr	  "boolean"
+	  RndMeth		  "Nearest"
+	  SaturateOnIntegerOverflow off
+	}
+	Block {
+	  BlockType		  DataTypeConversion
+	  Name			  "Data Type Conversion7"
+	  SID			  "81"
+	  Position		  [65, 480, 115, 500]
+	  ZOrder		  88
+	  OutDataTypeStr	  "boolean"
+	  RndMeth		  "Nearest"
+	  SaturateOnIntegerOverflow off
+	}
+	Block {
+	  BlockType		  DataTypeConversion
+	  Name			  "Data Type Conversion9"
+	  SID			  "110"
+	  Position		  [65, 450, 115, 470]
+	  ZOrder		  134
+	  OutDataTypeStr	  "boolean"
+	  RndMeth		  "Nearest"
+	  SaturateOnIntegerOverflow off
+	}
+	Block {
+	  BlockType		  Gain
+	  Name			  "Gain"
+	  SID			  "69"
+	  Position		  [540, 120, 570, 150]
+	  ZOrder		  183
+	  Gain			  "10"
+	  ParamDataTypeStr	  "Inherit: Inherit via internal rule"
+	  OutDataTypeStr	  "Inherit: Inherit via internal rule"
+	  SaturateOnIntegerOverflow off
+	}
+	Block {
+	  BlockType		  Gain
+	  Name			  "Gain1"
+	  SID			  "73"
+	  Position		  [540, 150, 570, 180]
+	  ZOrder		  80
+	  Gain			  "10"
+	  ParamDataTypeStr	  "Inherit: Inherit via internal rule"
+	  OutDataTypeStr	  "Inherit: Inherit via internal rule"
+	  SaturateOnIntegerOverflow off
+	}
+	Block {
+	  BlockType		  Gain
+	  Name			  "Gain2"
+	  SID			  "74"
+	  Position		  [540, 180, 570, 210]
+	  ZOrder		  81
+	  Gain			  "10"
+	  ParamDataTypeStr	  "Inherit: Inherit via internal rule"
+	  OutDataTypeStr	  "Inherit: Inherit via internal rule"
+	  SaturateOnIntegerOverflow off
+	}
+	Block {
+	  BlockType		  Gain
+	  Name			  "Gain3"
+	  SID			  "100"
+	  Position		  [505, 215, 605, 255]
+	  ZOrder		  187
+	  Gain			  "100*(180/pi)"
+	  ParamDataTypeStr	  "Inherit: Inherit via internal rule"
+	  OutDataTypeStr	  "Inherit: Inherit via internal rule"
+	  SaturateOnIntegerOverflow off
+	}
+	Block {
+	  BlockType		  Gain
+	  Name			  "Gain4"
+	  SID			  "103"
+	  Position		  [470, 255, 570, 295]
+	  ZOrder		  188
+	  Gain			  "1.5"
+	  ParamDataTypeStr	  "Inherit: Inherit via internal rule"
+	  OutMin		  "[-511]"
+	  OutMax		  "[512]"
+	  OutDataTypeStr	  "int16"
+	}
+	Block {
+	  BlockType		  Gain
+	  Name			  "Gain5"
+	  SID			  "109"
+	  Position		  [540, 55, 570, 85]
+	  ZOrder		  133
+	  Gain			  "10"
+	  ParamDataTypeStr	  "Inherit: Inherit via internal rule"
+	  OutDataTypeStr	  "Inherit: Inherit via internal rule"
+	  SaturateOnIntegerOverflow off
+	}
+	Block {
+	  BlockType		  Gain
+	  Name			  "Gain6"
+	  SID			  "112"
+	  Position		  [540, 25, 570, 55]
+	  ZOrder		  136
+	  Gain			  "10"
+	  ParamDataTypeStr	  "Inherit: Inherit via internal rule"
+	  OutDataTypeStr	  "Inherit: Inherit via internal rule"
+	  SaturateOnIntegerOverflow off
+	}
+	Block {
+	  BlockType		  Gain
+	  Name			  "Gain7"
+	  SID			  "114"
+	  Position		  [540, -5, 570, 25]
+	  ZOrder		  138
+	  Gain			  "10"
+	  ParamDataTypeStr	  "Inherit: Inherit via internal rule"
+	  OutDataTypeStr	  "Inherit: Inherit via internal rule"
+	  SaturateOnIntegerOverflow off
+	}
+	Block {
+	  BlockType		  Gain
+	  Name			  "Gain8"
+	  SID			  "116"
+	  Position		  [540, 85, 570, 115]
+	  ZOrder		  140
+	  Gain			  "10"
+	  ParamDataTypeStr	  "Inherit: Inherit via internal rule"
+	  OutDataTypeStr	  "Inherit: Inherit via internal rule"
+	  SaturateOnIntegerOverflow off
+	}
+	Block {
+	  BlockType		  Mux
+	  Name			  "Mux"
+	  SID			  "137"
+	  Ports			  [6, 1]
+	  Position		  [1065, -159, 1075, 464]
+	  ZOrder		  161
+	  ShowName		  off
+	  Inputs		  "6"
+	  DisplayOption		  "bar"
+	}
+	Block {
+	  BlockType		  Saturate
+	  Name			  "Saturation"
+	  SID			  "104"
+	  Ports			  [1, 1]
+	  Position		  [615, 265, 635, 285]
+	  ZOrder		  189
+	  InputPortMap		  "u0"
+	  UpperLimit		  "512"
+	  LowerLimit		  "-511"
+	}
+	Block {
+	  BlockType		  Saturate
+	  Name			  "Saturation1"
+	  SID			  "105"
+	  Ports			  [1, 1]
+	  Position		  [720, 155, 740, 175]
+	  ZOrder		  129
+	  InputPortMap		  "u0"
+	  UpperLimit		  "160"
+	  LowerLimit		  "-160"
+	}
+	Block {
+	  BlockType		  Saturate
+	  Name			  "Saturation2"
+	  SID			  "106"
+	  Ports			  [1, 1]
+	  Position		  [720, 187, 740, 203]
+	  ZOrder		  130
+	  InputPortMap		  "u0"
+	  UpperLimit		  "160"
+	  LowerLimit		  "-160"
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "Subsystem"
+	  SID			  "94"
+	  Ports			  [1, 2]
+	  Position		  [-130, 642, -5, 713]
+	  ZOrder		  -22
+	  RequestExecContextInheritance	off
+	  Variant		  off
+	  System {
+	    Name		    "Subsystem"
+	    Location		    [53, 23, 1072, 900]
+	    Open		    off
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "usletter"
+	    PaperUnits		    "inches"
+	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "125"
+	    Block {
+	      BlockType		      Inport
+	      Name		      "Turn_Indication"
+	      SID		      "95"
+	      Position		      [20, 33, 50, 47]
+	      ZOrder		      116
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Left"
+	      SID		      "92"
+	      Ports		      [1, 1]
+	      Position		      [335, 20, 365, 50]
+	      ZOrder		      114
+	      LibraryVersion	      "1.358"
+	      SourceBlock	      "simulink/Logic and Bit\nOperations/Compare\nTo Constant"
+	      SourceType	      "Compare To Constant"
+	      ContentPreviewEnabled   off
+	      relop		      "=="
+	      const		      "1"
+	      OutDataTypeStr	      "boolean"
+	      ZeroCross		      on
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Right"
+	      SID		      "93"
+	      Ports		      [1, 1]
+	      Position		      [335, 80, 365, 110]
+	      ZOrder		      115
+	      LibraryVersion	      "1.358"
+	      SourceBlock	      "simulink/Logic and Bit\nOperations/Compare\nTo Constant"
+	      SourceType	      "Compare To Constant"
+	      ContentPreviewEnabled   off
+	      relop		      "=="
+	      const		      "2"
+	      OutDataTypeStr	      "boolean"
+	      ZeroCross		      on
+	    }
+	    Block {
+	      BlockType		      Outport
+	      Name		      "LeftTurnSignalON"
+	      SID		      "96"
+	      Position		      [595, 28, 625, 42]
+	      ZOrder		      117
+	      IconDisplay	      "Port number"
+	    }
+	    Block {
+	      BlockType		      Outport
+	      Name		      "RightTurnSignalON"
+	      SID		      "97"
+	      Position		      [595, 88, 625, 102]
+	      ZOrder		      118
+	      Port		      "2"
+	      IconDisplay	      "Port number"
+	    }
+	    Line {
+	      ZOrder		      132
+	      SrcBlock		      "Turn_Indication"
+	      SrcPort		      1
+	      Points		      [138, 0; 0, -5; 36, 0]
+	      Branch {
+		ZOrder			128
+		Points			[0, 60]
+		DstBlock		"Right"
+		DstPort			1
+	      }
+	      Branch {
+		ZOrder			127
+		DstBlock		"Left"
+		DstPort			1
+	      }
+	    }
+	    Line {
+	      ZOrder		      133
+	      SrcBlock		      "Left"
+	      SrcPort		      1
+	      DstBlock		      "LeftTurnSignalON"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      134
+	      SrcBlock		      "Right"
+	      SrcPort		      1
+	      DstBlock		      "RightTurnSignalON"
+	      DstPort		      1
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "Out1"
+	  SID			  "65"
+	  Position		  [1215, 148, 1245, 162]
+	  ZOrder		  69
+	  IconDisplay		  "Port number"
+	}
+	Line {
+	  ZOrder		  78
+	  SrcBlock		  "LongAccOverGround"
+	  SrcPort		  1
+	  DstBlock		  "Gain1"
+	  DstPort		  1
+	}
+	Line {
+	  FontName		  "Helvetica"
+	  FontSize		  9
+	  FontWeight		  "normal"
+	  FontAngle		  "normal"
+	  ZOrder		  90
+	  SrcBlock		  "CIP_LateralVel"
+	  SrcPort		  1
+	  DstBlock		  "Gain6"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  136
+	  SrcBlock		  "Turn_indicatior"
+	  SrcPort		  1
+	  Points		  [60, 0; 0, 20]
+	  DstBlock		  "Subsystem"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  81
+	  SrcBlock		  "DriverBreaking"
+	  SrcPort		  1
+	  Points		  [22, 0; 0, -60]
+	  DstBlock		  "Data Type Conversion5"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  82
+	  SrcBlock		  "DriverBelted"
+	  SrcPort		  1
+	  Points		  [8, 0; 0, -60]
+	  DstBlock		  "Data Type Conversion4"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  77
+	  SrcBlock		  "LateralAcceleration"
+	  SrcPort		  1
+	  DstBlock		  "Gain2"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  87
+	  SrcBlock		  "CIP_lane_change"
+	  SrcPort		  1
+	  DstBlock		  "Data Type Conversion13"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  74
+	  SrcBlock		  "AccPedalPosition"
+	  SrcPort		  1
+	  Points		  [63, 0; 0, -110]
+	  DstBlock		  "Data Type Conversion3"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  83
+	  SrcBlock		  "CCOverride"
+	  SrcPort		  1
+	  Points		  [13, 0; 0, -48; 13, 0; 0, -12]
+	  DstBlock		  "Data Type Conversion7"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  472
+	  SrcBlock		  "Mux"
+	  SrcPort		  1
+	  DstBlock		  "Out1"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  85
+	  SrcBlock		  "CIP_present"
+	  SrcPort		  1
+	  Points		  [13, 0; 0, -30]
+	  DstBlock		  "Data Type Conversion9"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  153
+	  SrcBlock		  "CIP_Range"
+	  SrcPort		  1
+	  DstBlock		  "Gain5"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  400
+	  SrcBlock		  "Gain1"
+	  SrcPort		  1
+	  DstBlock		  "Saturation1"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  405
+	  SrcBlock		  "Gain2"
+	  SrcPort		  1
+	  DstBlock		  "Saturation2"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  133
+	  SrcBlock		  "Subsystem"
+	  SrcPort		  1
+	  Points		  [26, 0; 0, -73; 23, 0; 0, -7]
+	  DstBlock		  "Data Type Conversion15"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  430
+	  SrcBlock		  "Gain5"
+	  SrcPort		  1
+	  DstBlock		  "32:bit:2"
+	  DstPort		  1
+	}
+	Line {
+	  FontName		  "Helvetica"
+	  FontSize		  9
+	  FontWeight		  "normal"
+	  FontAngle		  "normal"
+	  ZOrder		  427
+	  SrcBlock		  "Gain6"
+	  SrcPort		  1
+	  Points		  [118, 0; 0, -15]
+	  DstBlock		  "32-bit:1"
+	  DstPort		  2
+	}
+	Line {
+	  FontName		  "Helvetica"
+	  FontSize		  9
+	  FontWeight		  "normal"
+	  FontAngle		  "normal"
+	  ZOrder		  163
+	  SrcBlock		  "CIP_LongAccel"
+	  SrcPort		  1
+	  DstBlock		  "Gain7"
+	  DstPort		  1
+	}
+	Line {
+	  FontName		  "Helvetica"
+	  FontSize		  9
+	  FontWeight		  "normal"
+	  FontAngle		  "normal"
+	  ZOrder		  429
+	  SrcBlock		  "Gain7"
+	  SrcPort		  1
+	  DstBlock		  "32-bit:1"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  167
+	  SrcBlock		  "CIP_LatOffset"
+	  SrcPort		  1
+	  DstBlock		  "Gain8"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  432
+	  SrcBlock		  "Gain8"
+	  SrcPort		  1
+	  Points		  [120, 0; 0, -15]
+	  DstBlock		  "32:bit:2"
+	  DstPort		  2
+	}
+	Line {
+	  ZOrder		  171
+	  SrcBlock		  "Subsystem"
+	  SrcPort		  2
+	  Points		  [65, 0; 0, -80]
+	  DstBlock		  "Data Type Conversion16"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  458
+	  SrcBlock		  "Controller_Disabled"
+	  SrcPort		  1
+	  DstBlock		  "Data Type Conversion1"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  177
+	  SrcBlock		  "Acceleration_Engage"
+	  SrcPort		  1
+	  DstBlock		  "Data Type Conversion18"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  178
+	  SrcBlock		  "ACC_Engage"
+	  SrcPort		  1
+	  DstBlock		  "Data Type Conversion19"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  180
+	  SrcBlock		  "Speed_limitor_engage"
+	  SrcPort		  1
+	  DstBlock		  "Data Type Conversion20"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  181
+	  SrcBlock		  "Emergency_Break"
+	  SrcPort		  1
+	  DstBlock		  "Data Type Conversion21"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  182
+	  SrcBlock		  "Collision_Warning"
+	  SrcPort		  1
+	  DstBlock		  "Data Type Conversion22"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  183
+	  SrcBlock		  "Low_Beam_HeadLight_ON"
+	  SrcPort		  1
+	  DstBlock		  "Data Type Conversion23"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  185
+	  SrcBlock		  "High_Beam_HeadLight_ON"
+	  SrcPort		  1
+	  DstBlock		  "Data Type Conversion24"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  244
+	  SrcBlock		  "Daytime_Running_Light_ON"
+	  SrcPort		  1
+	  DstBlock		  "Data Type Conversion25"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  245
+	  SrcBlock		  "Reverse_Light_ON"
+	  SrcPort		  1
+	  DstBlock		  "Data Type Conversion26"
+	  DstPort		  1
+	}
+	Line {
+	  FontName		  "Helvetica"
+	  FontSize		  9
+	  FontWeight		  "normal"
+	  FontAngle		  "normal"
+	  ZOrder		  428
+	  SrcBlock		  "32-bit:1"
+	  SrcPort		  1
+	  Points		  [14, 0; 0, -130]
+	  DstBlock		  "Mux"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  431
+	  SrcBlock		  "32:bit:2"
+	  SrcPort		  1
+	  Points		  [55, 0; 0, -85]
+	  DstBlock		  "Mux"
+	  DstPort		  2
+	}
+	Line {
+	  ZOrder		  324
+	  SrcBlock		  "vehicleSpeedOverGnd"
+	  SrcPort		  1
+	  DstBlock		  "Gain"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  434
+	  SrcBlock		  "Gain"
+	  SrcPort		  1
+	  DstBlock		  "32:bit3"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  435
+	  SrcBlock		  "Saturation1"
+	  SrcPort		  1
+	  Points		  [33, 0; 0, -15]
+	  DstBlock		  "32:bit3"
+	  DstPort		  2
+	}
+	Line {
+	  ZOrder		  328
+	  SrcBlock		  "YawRateActual"
+	  SrcPort		  1
+	  DstBlock		  "Gain3"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  329
+	  SrcBlock		  "SteeringAngle"
+	  SrcPort		  1
+	  DstBlock		  "Gain4"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  330
+	  SrcBlock		  "Gain4"
+	  SrcPort		  1
+	  DstBlock		  "Saturation"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  436
+	  SrcBlock		  "Saturation2"
+	  SrcPort		  1
+	  DstBlock		  "32-bit:4"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  437
+	  SrcBlock		  "Gain3"
+	  SrcPort		  1
+	  Points		  [157, 0; 0, -25]
+	  DstBlock		  "32-bit:4"
+	  DstPort		  2
+	}
+	Line {
+	  ZOrder		  415
+	  SrcBlock		  "Saturation"
+	  SrcPort		  1
+	  Points		  [46, 0; 0, -15]
+	  DstBlock		  "Data Type Conversion"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  433
+	  SrcBlock		  "32:bit3"
+	  SrcPort		  1
+	  Points		  [55, 0; 0, -45]
+	  DstBlock		  "Mux"
+	  DstPort		  3
+	}
+	Line {
+	  ZOrder		  438
+	  SrcBlock		  "32-bit:4"
+	  SrcPort		  1
+	  DstBlock		  "Mux"
+	  DstPort		  4
+	}
+	Line {
+	  ZOrder		  440
+	  SrcBlock		  "32-bit-5"
+	  SrcPort		  1
+	  Points		  [20, 0; 0, 40]
+	  DstBlock		  "Mux"
+	  DstPort		  5
+	}
+	Line {
+	  ZOrder		  439
+	  SrcBlock		  "Data Type Conversion"
+	  SrcPort		  1
+	  DstBlock		  "32-bit-5"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  441
+	  SrcBlock		  "CIP_lane"
+	  SrcPort		  1
+	  Points		  [45, 0; 0, 10]
+	  DstBlock		  "16bit:1"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  442
+	  SrcBlock		  "Sensor_error"
+	  SrcPort		  1
+	  Points		  [45, 0; 0, -10]
+	  DstBlock		  "16bit:1"
+	  DstPort		  2
+	}
+	Line {
+	  ZOrder		  445
+	  SrcBlock		  "16bit:1"
+	  SrcPort		  1
+	  Points		  [47, 0; 0, -60]
+	  DstBlock		  "32-bit-5"
+	  DstPort		  2
+	}
+	Line {
+	  ZOrder		  446
+	  SrcBlock		  "8-bit:1"
+	  SrcPort		  1
+	  Points		  [85, 0; 0, -60]
+	  DstBlock		  "16-bit:2"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  447
+	  SrcBlock		  "8-bit:2"
+	  SrcPort		  1
+	  Points		  [20, 0; 0, -475]
+	  DstBlock		  "16-bit:2"
+	  DstPort		  2
+	}
+	Line {
+	  ZOrder		  448
+	  SrcBlock		  "32-bit:6"
+	  SrcPort		  1
+	  Points		  [50, 0; 0, 15]
+	  DstBlock		  "Mux"
+	  DstPort		  6
+	}
+	Line {
+	  ZOrder		  449
+	  SrcBlock		  "16-bit:2"
+	  SrcPort		  1
+	  Points		  [68, 0; 0, -15]
+	  DstBlock		  "32-bit:6"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  450
+	  SrcBlock		  "Data Type Conversion13"
+	  SrcPort		  1
+	  Points		  [40, 0; 0, -30]
+	  DstBlock		  "8-bit:1"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  451
+	  SrcBlock		  "Data Type Conversion9"
+	  SrcPort		  1
+	  Points		  [31, 0; 0, -45]
+	  DstBlock		  "8-bit:1"
+	  DstPort		  2
+	}
+	Line {
+	  ZOrder		  452
+	  SrcBlock		  "Data Type Conversion7"
+	  SrcPort		  1
+	  Points		  [63, 0; 0, -60]
+	  DstBlock		  "8-bit:1"
+	  DstPort		  3
+	}
+	Line {
+	  ZOrder		  453
+	  SrcBlock		  "Data Type Conversion4"
+	  SrcPort		  1
+	  Points		  [26, 0; 0, -75]
+	  DstBlock		  "8-bit:1"
+	  DstPort		  4
+	}
+	Line {
+	  ZOrder		  454
+	  SrcBlock		  "Data Type Conversion5"
+	  SrcPort		  1
+	  Points		  [47, 0; 0, -90]
+	  DstBlock		  "8-bit:1"
+	  DstPort		  5
+	}
+	Line {
+	  ZOrder		  455
+	  SrcBlock		  "Data Type Conversion15"
+	  SrcPort		  1
+	  Points		  [37, 0; 0, -105]
+	  DstBlock		  "8-bit:1"
+	  DstPort		  6
+	}
+	Line {
+	  ZOrder		  456
+	  SrcBlock		  "Data Type Conversion16"
+	  SrcPort		  1
+	  Points		  [15, 0]
+	  DstBlock		  "8-bit:1"
+	  DstPort		  7
+	}
+	Line {
+	  ZOrder		  457
+	  SrcBlock		  "Data Type Conversion3"
+	  SrcPort		  1
+	  Points		  [26, 0; 0, -155]
+	  DstBlock		  "8-bit:1"
+	  DstPort		  8
+	}
+	Line {
+	  ZOrder		  459
+	  SrcBlock		  "Data Type Conversion1"
+	  SrcPort		  1
+	  Points		  [160, 0]
+	  DstBlock		  "8-bit:2"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  460
+	  SrcBlock		  "Data Type Conversion18"
+	  SrcPort		  1
+	  Points		  [90, 0]
+	  DstBlock		  "8-bit:2"
+	  DstPort		  2
+	}
+	Line {
+	  ZOrder		  461
+	  SrcBlock		  "Data Type Conversion19"
+	  SrcPort		  1
+	  DstBlock		  "8-bit:2"
+	  DstPort		  3
+	}
+	Line {
+	  ZOrder		  462
+	  SrcBlock		  "Data Type Conversion20"
+	  SrcPort		  1
+	  Points		  [90, 0]
+	  DstBlock		  "8-bit:2"
+	  DstPort		  4
+	}
+	Line {
+	  ZOrder		  463
+	  SrcBlock		  "Data Type Conversion21"
+	  SrcPort		  1
+	  Points		  [90, 0]
+	  DstBlock		  "8-bit:2"
+	  DstPort		  5
+	}
+	Line {
+	  ZOrder		  464
+	  SrcBlock		  "Data Type Conversion22"
+	  SrcPort		  1
+	  Points		  [76, 0; 0, -45]
+	  DstBlock		  "8-bit:2"
+	  DstPort		  6
+	}
+	Line {
+	  ZOrder		  465
+	  SrcBlock		  "Data Type Conversion23"
+	  SrcPort		  1
+	  Points		  [90, 0]
+	  DstBlock		  "8-bit:2"
+	  DstPort		  7
+	}
+	Line {
+	  ZOrder		  466
+	  SrcBlock		  "Data Type Conversion24"
+	  SrcPort		  1
+	  Points		  [0, -3; 98, 0; 0, -72]
+	  DstBlock		  "8-bit:2"
+	  DstPort		  8
+	}
+	Line {
+	  ZOrder		  467
+	  SrcBlock		  "8-bit:3"
+	  SrcPort		  1
+	  Points		  [13, 0; 0, -625]
+	  DstBlock		  "16-bit:3"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  468
+	  SrcBlock		  "Data Type Conversion25"
+	  SrcPort		  1
+	  Points		  [83, 0; 0, -15]
+	  DstBlock		  "8-bit:3"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  469
+	  SrcBlock		  "Data Type Conversion26"
+	  SrcPort		  1
+	  Points		  [114, 0; 0, -30]
+	  DstBlock		  "8-bit:3"
+	  DstPort		  2
+	}
+	Line {
+	  ZOrder		  471
+	  SrcBlock		  "16-bit:3"
+	  SrcPort		  1
+	  Points		  [115, 0]
+	  DstBlock		  "32-bit:6"
+	  DstPort		  2
+	}
+      }
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "UDP Receive"
+      SID		      "134"
+      Ports		      [0, 1]
+      Position		      [1030, 300, 1135, 350]
+      ZOrder		      175
+      LibraryVersion	      "1.105"
+      SourceBlock	      "dspnetwork/UDP Receive"
+      SourceType	      "UDP Receive"
+      localURL		      "'0.0.0.0'"
+      localPort		      "25000"
+      remoteURL		      "'localhost'"
+      remotePort	      "-1"
+      recvBufferSize	      "8192"
+      dims		      "255"
+      signalDatatype	      "uint16"
+      isVarSize		      on
+      showBlockingTime	      off
+      blockingTime	      "0"
+      sampletime	      "1"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "UDP Send"
+      SID		      "133"
+      Ports		      [1]
+      Position		      [895, 335, 1000, 385]
+      ZOrder		      177
+      LibraryVersion	      "1.105"
+      SourceBlock	      "dspnetwork/UDP Send"
+      SourceType	      "UDP Send"
+      remoteURL		      "'127.0.0.1'"
+      remotePort	      "25000"
+      localURL		      "'0.0.0.0'"
+      localPortSource	      "Automatically determine"
+      localPort		      "-1"
+      sampletime	      "-1"
+      separateLengthPort      "0"
+    }
+    Line {
+      ZOrder		      86
+      SrcBlock		      "Encode_To_DC"
+      SrcPort		      1
+      Points		      [58, 0; 0, -85]
+      DstBlock		      "UDP Send"
+      DstPort		      1
+    }
+    Line {
+      ZOrder		      84
+      SrcBlock		      "Constant"
+      SrcPort		      1
+      Points		      [43, 0; 0, 45]
+      DstBlock		      "Encode_To_DC"
+      DstPort		      1
+    }
+    Line {
+      ZOrder		      85
+      SrcBlock		      "UDP Receive"
+      SrcPort		      1
+      DstBlock		      "Display1"
+      DstPort		      1
+    }
+    Line {
+      ZOrder		      87
+      SrcBlock		      "Constant1"
+      SrcPort		      1
+      Points		      [69, 0; 0, 35]
+      DstBlock		      "Encode_To_DC"
+      DstPort		      2
+    }
+    Line {
+      ZOrder		      89
+      SrcBlock		      "Constant2"
+      SrcPort		      1
+      Points		      [63, 0; 0, 10]
+      DstBlock		      "Encode_To_DC"
+      DstPort		      3
+    }
+    Line {
+      ZOrder		      90
+      SrcBlock		      "Constant3"
+      SrcPort		      1
+      Points		      [75, 0; 0, -15]
+      DstBlock		      "Encode_To_DC"
+      DstPort		      4
+    }
+    Line {
+      ZOrder		      91
+      SrcBlock		      "Constant4"
+      SrcPort		      1
+      Points		      [77, 0; 0, -50]
+      DstBlock		      "Encode_To_DC"
+      DstPort		      5
+    }
+    Line {
+      ZOrder		      92
+      SrcBlock		      "Constant5"
+      SrcPort		      1
+      Points		      [38, 0; 0, -75]
+      DstBlock		      "Encode_To_DC"
+      DstPort		      6
+    }
+  }
+}
+#Finite State Machines
+#
+#   Stateflow 80000006
+#
+#
+Stateflow {
+  machine {
+    id			    1
+    name		    "Encode_To_DC"
+    created		    "10-Mar-2016 20:49:46"
+    isLibrary		    0
+    firstTarget		    2
+    sfVersion		    80000006
+  }
+  target {
+    id			    2
+    name		    "sfun"
+    description		    "Default Simulink S-Function Target."
+    machine		    1
+    linkNode		    [1 0 0]
+  }
+}
